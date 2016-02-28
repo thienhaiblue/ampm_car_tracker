@@ -1,0 +1,11 @@
+--create .\Flash\ampm_gsm.lib
+.\flash\at_command_parser.o
+.\flash\pdu.o
+.\flash\ampm_gsm_call.o
+.\flash\ampm_gsm_common.o
+.\flash\ampm_gsm_dial_up.o
+.\flash\ampm_gsm_io.o
+.\flash\ampm_gsm_main_task.o
+.\flash\ampm_gsm_ring.o
+.\flash\ampm_gsm_sms.o
+.\flash\ampm_gsm_startup.o

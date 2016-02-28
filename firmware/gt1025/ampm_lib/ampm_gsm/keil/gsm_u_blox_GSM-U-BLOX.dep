@@ -1,0 +1,157 @@
+Dependencies for Project 'gsm_u_blox', Target 'GSM-U-BLOX': (DO NOT MODIFY !)
+F (..\at_command_parser.c)(0x54F6B73F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\at_command_parser.o --omf_browse .\flash\at_command_parser.crf --depend .\flash\at_command_parser.d)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\at_command_parser.h)(0x54F2CBF8)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sparser.h)(0x54F3010D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_sms.h)(0x54F345BE)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_call.h)(0x54F2C558)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_ring.h)(0x54F2C465)
+F (..\sms\pdu.c)(0x5373735D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\pdu.o --omf_browse .\flash\pdu.crf --depend .\flash\pdu.d)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\sms\pdu.h)(0x53736F1B)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+F (..\ampm_gsm_call.c)(0x54F6B71F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\ampm_gsm_call.o --omf_browse .\flash\ampm_gsm_call.crf --depend .\flash\ampm_gsm_call.d)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_common.h)(0x54F43BDD)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_io.h)(0x54F579FF)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sparser.h)(0x54F3010D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ampm_sprintf.h)(0x54F57820)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\common\comm.h)(0x54F6BBBB)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_sms.h)(0x54F345BE)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_call.h)(0x54F2C558)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\sms\pdu.h)(0x53736F1B)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\at_command_parser.h)(0x54F2CBF8)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_ring.h)(0x54F2C465)
+F (..\ampm_gsm_common.c)(0x54F6B721)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\ampm_gsm_common.o --omf_browse .\flash\ampm_gsm_common.crf --depend .\flash\ampm_gsm_common.d)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_common.h)(0x54F43BDD)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_io.h)(0x54F579FF)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sparser.h)(0x54F3010D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ampm_sprintf.h)(0x54F57820)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\common\comm.h)(0x54F6BBBB)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+F (..\ampm_gsm_dial_up.c)(0x54F6B7DE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\ampm_gsm_dial_up.o --omf_browse .\flash\ampm_gsm_dial_up.crf --depend .\flash\ampm_gsm_dial_up.d)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_common.h)(0x54F43BDD)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_io.h)(0x54F579FF)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sparser.h)(0x54F3010D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ampm_sprintf.h)(0x54F57820)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\common\comm.h)(0x54F6BBBB)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+F (..\ampm_gsm_io.c)(0x54F6B843)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\ampm_gsm_io.o --omf_browse .\flash\ampm_gsm_io.crf --depend .\flash\ampm_gsm_io.d)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_io.h)(0x54F579FF)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sparser.h)(0x54F3010D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ampm_sprintf.h)(0x54F57820)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\common\comm.h)(0x54F6BBBB)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+F (..\ampm_gsm_main_task.c)(0x54F6C27B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\ampm_gsm_main_task.o --omf_browse .\flash\ampm_gsm_main_task.crf --depend .\flash\ampm_gsm_main_task.d)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_main_task.h)(0x54F66D2D)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\at_command_parser.h)(0x54F2CBF8)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sparser.h)(0x54F3010D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_sms.h)(0x54F345BE)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_call.h)(0x54F2C558)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_ring.h)(0x54F2C465)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_common.h)(0x54F43BDD)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_io.h)(0x54F579FF)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ampm_sprintf.h)(0x54F57820)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\common\comm.h)(0x54F6BBBB)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_startup.h)(0x54F3D25B)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_dial_up.h)(0x54F17E3D)
+F (..\ampm_gsm_ring.c)(0x54F6B7E0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\ampm_gsm_ring.o --omf_browse .\flash\ampm_gsm_ring.crf --depend .\flash\ampm_gsm_ring.d)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_common.h)(0x54F43BDD)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_io.h)(0x54F579FF)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sparser.h)(0x54F3010D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ampm_sprintf.h)(0x54F57820)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\common\comm.h)(0x54F6BBBB)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_ring.h)(0x54F2C465)
+F (..\ampm_gsm_sms.c)(0x54F6CAEF)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\ampm_gsm_sms.o --omf_browse .\flash\ampm_gsm_sms.crf --depend .\flash\ampm_gsm_sms.d)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_common.h)(0x54F43BDD)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_io.h)(0x54F579FF)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sparser.h)(0x54F3010D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ampm_sprintf.h)(0x54F57820)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\common\comm.h)(0x54F6BBBB)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_sms.h)(0x54F345BE)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\sms\pdu.h)(0x53736F1B)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\at_command_parser.h)(0x54F2CBF8)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_call.h)(0x54F2C558)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_ring.h)(0x54F2C465)
+F (..\ampm_gsm_startup.c)(0x54F6BFC0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\ampm_gsm_startup.o --omf_browse .\flash\ampm_gsm_startup.crf --depend .\flash\ampm_gsm_startup.d)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_common.h)(0x54F43BDD)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_io.h)(0x54F579FF)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sparser.h)(0x54F3010D)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ampm_sprintf.h)(0x54F57820)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\common\comm.h)(0x54F6BBBB)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GSM\trunk\source\code - Copy\bt2\ampm_lib\ampm_gsm\ampm_gsm_startup.h)(0x54F3D25B)

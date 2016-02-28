@@ -1,0 +1,12 @@
+.\flash\usbuser.o: ..\..\ampm_lib\usb\usbuser.c
+.\flash\usbuser.o: ..\..\ampm_lib\usb\usb.h
+.\flash\usbuser.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\usbuser.o: ..\..\ampm_lib\usb\usbcfg.h
+.\flash\usbuser.o: ..\..\ampm_lib\usb\usbhw.h
+.\flash\usbuser.o: ..\..\ampm_lib\usb\usbcore.h
+.\flash\usbuser.o: ..\..\ampm_lib\usb\usbuser.h
+.\flash\usbuser.o: ..\..\ampm_lib\usb\mscuser.h
+.\flash\usbuser.o: ..\..\ampm_lib\usb\cdcuser.h
+.\flash\usbuser.o: ..\..\ampm_lib\lib/ringbuf.h
+.\flash\usbuser.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\flash\usbuser.o: ..\..\ampm_lib\usb\hiduser.h

@@ -1,0 +1,17 @@
+.\flash\flash_mem.o: ..\..\ampm_lib\FATFS\flash_mem.c
+.\flash\flash_mem.o: ..\..\ampm_lib\FATFS\flash_mem.h
+.\flash\flash_mem.o: ..\..\ampm_lib\FATFS\diskio.h
+.\flash\flash_mem.o: ..\..\ampm_lib\FATFS\integer.h
+.\flash\flash_mem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\flash_mem.o: ..\..\ampm_lib\flash_mem\sst25.h
+.\flash\flash_mem.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\flash\flash_mem.o: ..\..\ampm_lib\FATFS\ffconf.h
+.\flash\flash_mem.o: ..\..\ampm_lib\lib/sys_time.h
+.\flash\flash_mem.o: C:\Keil\ARM\ARMCC\bin\..\include\time.h
+.\flash\flash_mem.o: ..\..\ampm_lib\gps/gps.h
+.\flash\flash_mem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\flash\flash_mem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\flash\flash_mem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\flash\flash_mem.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\flash\flash_mem.o: C:\Keil\ARM\ARMCC\bin\..\include\limits.h
+.\flash\flash_mem.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h

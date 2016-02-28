@@ -1,0 +1,12 @@
+.\flash\msc_init.o: ..\..\src\msc_init.c
+.\flash\msc_init.o: ..\..\src\msc_init.h
+.\flash\msc_init.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\msc_init.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\flash\msc_init.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\flash\msc_init.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\flash\msc_init.o: ..\..\ampm_lib\FATFS\ff.h
+.\flash\msc_init.o: ..\..\ampm_lib\FATFS\integer.h
+.\flash\msc_init.o: ..\..\ampm_lib\FATFS\ffconf.h
+.\flash\msc_init.o: ..\..\ampm_lib\FATFS\diskio.h
+.\flash\msc_init.o: ..\..\ampm_lib\flash_mem\sst25.h
+.\flash\msc_init.o: ..\..\ampm_lib\lib/sys_tick.h

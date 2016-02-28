@@ -1,0 +1,1259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="settingTabPage.Text" xml:space="preserve">
+    <value>Cấu hình</value>
+  </data>
+  <data name="summaryReportTabPage.Text" xml:space="preserve">
+    <value>Báo cáo tổng hợp</value>
+  </data>
+  <data name="detailReportTabPage.Text" xml:space="preserve">
+    <value>Báo cáo chi tiết</value>
+  </data>
+  <data name="grbFeatureSet.Text" xml:space="preserve">
+    <value>Tính năng hỗ trợ</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tapWarningChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 17</value>
+  </data>
+  <data name="tapWarningChkBox.Text" xml:space="preserve">
+    <value>Cảnh báo rung</value>
+  </data>
+  <data name="accWarningChkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 28</value>
+  </data>
+  <data name="accWarningChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="accWarningChkBox.Text" xml:space="preserve">
+    <value>Cảnh báo mở khóa xe</value>
+  </data>
+  <data name="powerLowWarningLevelLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 13</value>
+  </data>
+  <data name="powerLowWarningLevelLbl.Text" xml:space="preserve">
+    <value>Mức cảnh báo nguồn yếu (0-100)</value>
+  </data>
+  <data name="removePowerWarningChkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 21</value>
+  </data>
+  <data name="removePowerWarningChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 30</value>
+  </data>
+  <data name="removePowerWarningChkBox.Text" xml:space="preserve">
+    <value>Cảnh báo mất
+nguồn ngoài</value>
+  </data>
+  <data name="lowPowerWarningChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 30</value>
+  </data>
+  <data name="lowPowerWarningChkBox.Text" xml:space="preserve">
+    <value>Cảnh báo
+nguồn yếu</value>
+  </data>
+  <data name="lowBatteryWarningChkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 112</value>
+  </data>
+  <data name="lowBatteryWarningChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 30</value>
+  </data>
+  <data name="lowBatteryWarningChkBox.Text" xml:space="preserve">
+    <value>Cảnh báo
+pin yếu</value>
+  </data>
+  <data name="powerLowWarningPeriodLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="powerLowWarningPeriodLbl.Text" xml:space="preserve">
+    <value>Thời gian lặp lại cảnh báo</value>
+  </data>
+  <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 13</value>
+  </data>
+  <data name="label28.Text" xml:space="preserve">
+    <value>Mức cảnh báo pin yếu (0-100)</value>
+  </data>
+  <data name="label29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="label29.Text" xml:space="preserve">
+    <value>Thời gian lặp lại cảnh báo</value>
+  </data>
+  <data name="grbOtherSettings.Text" xml:space="preserve">
+    <value>Thông số khác</value>
+  </data>
+  <data name="accountAlarmCheckTxt.ToolTip" xml:space="preserve">
+    <value>Hẹn giờ để thiết bị tự động kiểm tra
+thông tin tài khoản mỗi ngày</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 13</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Giờ kiểm tra tài khoản (0-23)</value>
+  </data>
+  <data name="label17.ToolTip" xml:space="preserve">
+    <value>Hẹn giờ để thiết bị tự động kiểm tra
+thông tin tài khoản mỗi ngày</value>
+  </data>
+  <data name="groupBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 18</value>
+  </data>
+  <data name="groupBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 85</value>
+  </data>
+  <data name="groupBox4.Text" xml:space="preserve">
+    <value>Chế độ chống trộm</value>
+  </data>
+  <data name="autoSecurityOnChkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 18</value>
+  </data>
+  <data name="autoSecurityOnChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 17</value>
+  </data>
+  <data name="autoSecurityOnChkBox.Text" xml:space="preserve">
+    <value>Bật chế độ tự động</value>
+  </data>
+  <data name="callActionChkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 64</value>
+  </data>
+  <data name="callActionChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 17</value>
+  </data>
+  <data name="callActionChkBox.Text" xml:space="preserve">
+    <value>Bật bằng cuộc gọi</value>
+  </data>
+  <data name="manualSecurityOnChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 17</value>
+  </data>
+  <data name="manualSecurityOnChkBox.Text" xml:space="preserve">
+    <value>Bật</value>
+  </data>
+  <data name="sendSMSActionChkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 41</value>
+  </data>
+  <data name="sendSMSActionChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 17</value>
+  </data>
+  <data name="sendSMSActionChkBox.Text" xml:space="preserve">
+    <value>Bật bằng tin nhắn</value>
+  </data>
+  <data name="powerOffDelayTimeTxt.ToolTip" xml:space="preserve">
+    <value>Thời gian để thiết bị tự động tắt nguồn
+kể từ thời điểm xe tắt máy</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="powerOffDelayTimeLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="powerOffDelayTimeLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 13</value>
+  </data>
+  <data name="powerOffDelayTimeLbl.Text" xml:space="preserve">
+    <value>Thời gian chờ tắt thiết bị</value>
+  </data>
+  <data name="powerOffDelayTimeLbl.ToolTip" xml:space="preserve">
+    <value>Thời gian để thiết bị tự động tắt nguồn
+kể từ thời điểm xe tắt máy</value>
+  </data>
+  <data name="speedEngineOffTxt.ToolTip" xml:space="preserve">
+    <value>Chỉ cho phép tắt máy khi tốc độ
+động cơ nhỏ hơn giới hạn này</value>
+  </data>
+  <data name="speedEngineOffLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="speedEngineOffLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>139, 13</value>
+  </data>
+  <data name="speedEngineOffLbl.Text" xml:space="preserve">
+    <value>Tốc độ động cơ khi tắt máy</value>
+  </data>
+  <data name="speedEngineOffLbl.ToolTip" xml:space="preserve">
+    <value>Chỉ cho phép tắt máy khi tốc độ
+động cơ nhỏ hơn giới hạn này</value>
+  </data>
+  <data name="sosKeyPressTimeTxt.ToolTip" xml:space="preserve">
+    <value>Số lần bấm phím SOS liên tục
+để kích hoạt chế độ SOS</value>
+  </data>
+  <data name="sosKeyPressPeriodTxt.ToolTip" xml:space="preserve">
+    <value>Thời gian giới hạn cho số lần nhấn phím SOS
+liên tục để kích hoạtchế độ SOS</value>
+  </data>
+  <data name="sosPressKeyTimeoutLbl.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sosPressKeyTimeoutLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 13</value>
+  </data>
+  <data name="sosPressKeyTimeoutLbl.Text" xml:space="preserve">
+    <value>Thời gian chờ phím SOS</value>
+  </data>
+  <data name="sosPressKeyTimeoutLbl.ToolTip" xml:space="preserve">
+    <value>Thời gian giới hạn cho số lần nhấn phím SOS
+liên tục để kích hoạtchế độ SOS</value>
+  </data>
+  <data name="label23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="label23.Text" xml:space="preserve">
+    <value>Số lần nhấn phím SOS</value>
+  </data>
+  <data name="label23.ToolTip" xml:space="preserve">
+    <value>Số lần bấm phím SOS liên tục
+để kích hoạt chế độ SOS</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Gửi Tin Nhắn SMS</value>
+  </data>
+  <data name="sendSMSBtn.Text" xml:space="preserve">
+    <value>Gửi SMS</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Tới số</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Cấu hình khác</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 113</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Số công-tơ-mét gốc</value>
+  </data>
+  <data name="baseMileageTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 110</value>
+  </data>
+  <data name="totalDrivingTimeLimitTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 80</value>
+  </data>
+  <data name="drivingTimeLimitTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>181, 48</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tốc độ giới hạn (km/h)</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 44</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 26</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Thời gian lái xe liên tục giới hạn (giờ)</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 77</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 26</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Tổng thời gian lái xe liên tục giới hạn (giờ)</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Nâng cấp firmware</value>
+  </data>
+  <data name="runAppBtn.Text" xml:space="preserve">
+    <value>Chạy CT</value>
+  </data>
+  <data name="downloadFirmwareBtn.Text" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="readFirmwareVersionBtn.Text" xml:space="preserve">
+    <value>Đọc</value>
+  </data>
+  <data name="grbPrintHead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 83</value>
+  </data>
+  <data name="grbPrintHead.Text" xml:space="preserve">
+    <value>Tiêu đề hóa đơn</value>
+  </data>
+  <data name="printHeadTxtBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>310, 64</value>
+  </data>
+  <data name="grbAnalogInput.Text" xml:space="preserve">
+    <value>Đầu vào cảm biến</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Biên dưới (V)</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>Biên trên (V)</value>
+  </data>
+  <data name="analogPercentageModeChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="analogPercentageModeChkBox.Text" xml:space="preserve">
+    <value>Gửi theo %</value>
+  </data>
+  <data name="grbCameraSetup.Text" xml:space="preserve">
+    <value>Thông số Camera</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 13</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>Giờ</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Từ</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Tới</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 107</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Thời gian hoạt động</value>
+  </data>
+  <data name="setCameraIdBtn.Text" xml:space="preserve">
+    <value>Cài đặt Camera</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Chu kỳ (giây)</value>
+  </data>
+  <data name="lblMinutes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="lblTriggerSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lblTriggerSource.Text" xml:space="preserve">
+    <value>Kích hoạt bằng</value>
+  </data>
+  <data name="label38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 26</value>
+  </data>
+  <data name="label38.Text" xml:space="preserve">
+    <value>Tỉ lệ nén
+(100 - 250)</value>
+  </data>
+  <data name="lblCameraChannels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblCameraChannels.Text" xml:space="preserve">
+    <value>Kênh</value>
+  </data>
+  <data name="grbAuthorizedDriver.Text" xml:space="preserve">
+    <value>Danh sách tài xế</value>
+  </data>
+  <data name="lblDriverNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="lblDriverNumber.Text" xml:space="preserve">
+    <value>Tài xế số</value>
+  </data>
+  <data name="lblAuthorizedDriverName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="lblAuthorizedDriverName.Text" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="lblAuthorizedDrivingLicense.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblAuthorizedDrivingLicense.Text" xml:space="preserve">
+    <value>Số GPLX</value>
+  </data>
+  <data name="lblAuthorizedPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblAuthorizedPhoneNumber.Text" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="lblAuthorizedIssuedDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="lblAuthorizedIssuedDate.Text" xml:space="preserve">
+    <value>Ngày cấp</value>
+  </data>
+  <data name="lblAuthorizedExpiredDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="lblAuthorizedExpiredDate.Text" xml:space="preserve">
+    <value>Ngày hết hạn</value>
+  </data>
+  <data name="grbVehicleParameter.Text" xml:space="preserve">
+    <value>Thông số xe</value>
+  </data>
+  <data name="bossPhoneTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 99</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Số máy khẩn cấp</value>
+  </data>
+  <data name="pulseSpeedSourceRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 148</value>
+  </data>
+  <data name="pulseSpeedSourceRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 17</value>
+  </data>
+  <data name="pulseSpeedSourceRBtn.Text" xml:space="preserve">
+    <value>Cảm biến tốc độ</value>
+  </data>
+  <data name="gpsSpeedSourceRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 125</value>
+  </data>
+  <data name="lblSpeedSource.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 137</value>
+  </data>
+  <data name="lblSpeedSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblSpeedSource.Text" xml:space="preserve">
+    <value>Lấy tốc độ từ</value>
+  </data>
+  <data name="tyreRateTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 171</value>
+  </data>
+  <data name="vinNumTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 73</value>
+  </data>
+  <data name="plateNoTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 47</value>
+  </data>
+  <data name="trackerIdTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 21</value>
+  </data>
+  <data name="lblTyreRate.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblTyreRate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 162</value>
+  </data>
+  <data name="lblTyreRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 29</value>
+  </data>
+  <data name="lblTyreRate.Text" xml:space="preserve">
+    <value>Hệ số cảm biến tốc độ</value>
+  </data>
+  <data name="lblCarNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lblCarNumber.Text" xml:space="preserve">
+    <value>Biển số</value>
+  </data>
+  <data name="lblTrackerID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblTrackerID.Text" xml:space="preserve">
+    <value>ID bộ quản lý</value>
+  </data>
+  <data name="lblVINNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="lblVINNumber.Text" xml:space="preserve">
+    <value>Số VIN</value>
+  </data>
+  <data name="grbServerParameter.Text" xml:space="preserve">
+    <value>Thông số máy chủ</value>
+  </data>
+  <data name="lblServerSelection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="lblServerSelection.Text" xml:space="preserve">
+    <value>Chọn máy chủ</value>
+  </data>
+  <data name="serverUseDomainRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="serverUseDomainRBtn.Text" xml:space="preserve">
+    <value>Tên miền</value>
+  </data>
+  <data name="serverUseIpRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="serverUseIpRBtn.Text" xml:space="preserve">
+    <value>Địa chỉ IP</value>
+  </data>
+  <data name="lblPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblPort.Text" xml:space="preserve">
+    <value>Cổng</value>
+  </data>
+  <data name="gprsStopReportIntervalTxtBox.ToolTip" xml:space="preserve">
+    <value>Chu kì gửi khi động cơ
+xe ở trạng thái hoạt động</value>
+  </data>
+  <data name="gprsRunReportIntervalTxtBox.ToolTip" xml:space="preserve">
+    <value>Chu kì gửi khi động cơ
+xe ở trạng thái hoạt động</value>
+  </data>
+  <data name="lblOFF.ToolTip" xml:space="preserve">
+    <value>Chu kì gửi khi động cơ
+xe ở trạng thái hoạt động</value>
+  </data>
+  <data name="lblON.ToolTip" xml:space="preserve">
+    <value>Chu kì gửi khi động cơ
+xe ở trạng thái hoạt động</value>
+  </data>
+  <data name="lblIntevalTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIntevalTime.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 113</value>
+  </data>
+  <data name="lblIntevalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 26</value>
+  </data>
+  <data name="lblIntevalTime.Text" xml:space="preserve">
+    <value>Chu kì gửi
+báo cáo</value>
+  </data>
+  <data name="noCol.HeaderText" xml:space="preserve">
+    <value>Stt</value>
+  </data>
+  <data name="plateCol.HeaderText" xml:space="preserve">
+    <value>Biển số xe</value>
+  </data>
+  <data name="driverCol.HeaderText" xml:space="preserve">
+    <value>Tên tài xế</value>
+  </data>
+  <data name="licenseCol.HeaderText" xml:space="preserve">
+    <value>Số GPLX</value>
+  </data>
+  <data name="startTimeCol.HeaderText" xml:space="preserve">
+    <value>Thời gian khởi hành</value>
+  </data>
+  <data name="endTimeCol.HeaderText" xml:space="preserve">
+    <value>Thời gian kết thúc</value>
+  </data>
+  <data name="exSpeedCountCol.HeaderText" xml:space="preserve">
+    <value>Số lần vượt quá tốc độ</value>
+  </data>
+  <data name="doorOpenCountCol.HeaderText" xml:space="preserve">
+    <value>Số lần mở cửa</value>
+  </data>
+  <data name="doorCloseCountCol.HeaderText" xml:space="preserve">
+    <value>Số lần đóng cửa</value>
+  </data>
+  <data name="engineOnCountCol.HeaderText" xml:space="preserve">
+    <value>Số lần mở máy</value>
+  </data>
+  <data name="engineOffCountCol.HeaderText" xml:space="preserve">
+    <value>Số lần tắt máy</value>
+  </data>
+  <data name="parkCountCol.HeaderText" xml:space="preserve">
+    <value>Số lần dừng/đỗ xe</value>
+  </data>
+  <data name="contDriveTimeCol.HeaderText" xml:space="preserve">
+    <value>Thời gian lái xe liên tục</value>
+  </data>
+  <data name="overDrivingTimeCountCol.HeaderText" xml:space="preserve">
+    <value>Số lần vượt quá thời gian lái xe liên tục</value>
+  </data>
+  <data name="totalDriveTimeCol.HeaderText" xml:space="preserve">
+    <value>Tổng thời gian lái xe</value>
+  </data>
+  <data name="overTotalDrivingTimeCountCol.HeaderText" xml:space="preserve">
+    <value>Số lần vượt quá tổng thời gian lái xe</value>
+  </data>
+  <data name="totalLengthCol.HeaderText" xml:space="preserve">
+    <value>Quãng đường</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Chu kỳ</value>
+  </data>
+  <data name="clearReportBtn.Text" xml:space="preserve">
+    <value>Xóa tất cả báo cáo</value>
+  </data>
+  <data name="readReportFromHardDiskBtn.Text" xml:space="preserve">
+    <value>Đọc từ ổ cứng</value>
+  </data>
+  <data name="outputReportToKMLBtn.Text" xml:space="preserve">
+    <value>Xuất file KML</value>
+  </data>
+  <data name="reportBeginDatePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 19</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Từ</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 22</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 13</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Đến</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Tên tài xế</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>Stt</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.MinimumWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="gridDetailTime.HeaderText" xml:space="preserve">
+    <value>Thời gian</value>
+  </data>
+  <data name="gridDetailTime.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="gridDetailLng.HeaderText" xml:space="preserve">
+    <value>Kinh độ</value>
+  </data>
+  <data name="gridDetailLng.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="gridDetailLat.HeaderText" xml:space="preserve">
+    <value>Vĩ độ</value>
+  </data>
+  <data name="gridDetailLat.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="gridDetailSpeed.HeaderText" xml:space="preserve">
+    <value>Tốc độ</value>
+  </data>
+  <data name="gridDetailSpeed.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="gridDetailDoor.HeaderText" xml:space="preserve">
+    <value>Trạng thái cửa</value>
+  </data>
+  <data name="gridDetailDoor.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="gridDetailMileaage.HeaderText" xml:space="preserve">
+    <value>Quãng đường</value>
+  </data>
+  <data name="gridDetailMileaage.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <data name="clearLogBtn.Text" xml:space="preserve">
+    <value>Xóa Log</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Quản lý</value>
+  </data>
+  <data name="skinToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="skinToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Giao diện</value>
+  </data>
+  <data name="blueToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Xanh</value>
+  </data>
+  <data name="blackToolStripMenuItem.Text" xml:space="preserve">
+    <value>Đ&amp;en</value>
+  </data>
+  <data name="silverToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Bạc</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Mặc định</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Thoát</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Ngôn ngữ</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tiếng &amp;Anh</value>
+  </data>
+  <data name="vietnameseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="vietnameseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tiếng &amp;Việt</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Trợ giúp</value>
+  </data>
+  <data name="registerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Về chúng tôi</value>
+  </data>
+  <data name="openPortBtn.Text" xml:space="preserve">
+    <value>Mở cổng</value>
+  </data>
+  <data name="printReportBtn.Text" xml:space="preserve">
+    <value>In báo cáo</value>
+  </data>
+  <data name="defaultSettingsBtn.Text" xml:space="preserve">
+    <value>Cấu hình mặc định</value>
+  </data>
+  <data name="loadSettingsBtn.Text" xml:space="preserve">
+    <value>Chọn cấu hình đã lưu</value>
+  </data>
+  <data name="saveSettingsBtn.Text" xml:space="preserve">
+    <value>Lưu cấu hình</value>
+  </data>
+  <data name="writeSettingsBtn.Text" xml:space="preserve">
+    <value>Ghi cấu hình</value>
+  </data>
+  <data name="readSettingsBtn.Text" xml:space="preserve">
+    <value>Đọc cấu hình</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAMDAAAAEACACoDgAAZgAAACAgAAABAAgAqAgAAA4PAAAQEAAAAQAIAGgFAAC2FwAAMDAAAAEA
+        IACoJQAAHh0AACAgAAABACAAqBAAAMZCAAAQEAAAAQAgAGgEAABuUwAAKAAAADAAAABgAAAAAQAIAAAA
+        AACACgAAAAAAAAAAAAAAAQAAAAAAAAAAAAD///8AAf8AAAD+AAAE/gIAAv4AAAL+AgAC/AAACP4IAJL8
+        kgCi/KIApvymADz+PAAA/AAAUvxSAJT8lACe/J4AcPxwABz+HAAO/A4AZP5kAJz+nACa/JoAYPxgAAz+
+        DACM/IwA/vz+AGT8ZAAc/BwAwvzCAOj86ABS/lIAAP4CADb+NgDa/NoA1vzYADT8NAAC/AIAPvxAAPz8
+        /AD4/PgA9Pz0APr8+gBc/FwACv4KAMr8zAD2/PYAOP44ACD+IADq/OwA9Pz2APb+9gDm/OgAGv4aAPr8
+        /AD4/PoAXv5eAAT8AgBu/G4A1PzWAHr+egCq/KwA9vz4AAT+BACe/KAAwPzCAHj8eADE/MYA9P72AJb+
+        lgCW/JgA/Pz+AND80AD8/vwA7PzsABz+HgC6/LoAMv4yABj+GADw/PAA0vzSAAb+BgAM/g4A3PzcABL+
+        EgBK/koABv4EACr+KgCs/K4ACPwIAFj8WgB2/HYAgP6AAAr8CgCI/IoASPxIAAT+BgDe/N4AxP7EAAb8
+        BgBW/FQAgv6CADT+NACk/KQAfvx+AP7+/gBU/lQAWvxcAHb8eACk/qQAQv5CAHT8dAAe/B4AwPzAAEL8
+        QgD++v4AWP5YACr8KgAy/DIACP4GAIr+igBc/lwAFP4SAPL88gDM/MwAAv4EALb8tgA4/DoAOvw6AKj+
+        qAAW/hYAiPyIAET8RAAI/AYAVvxWABb+FADy/PQA2vzcAAz+CgC+/L4ALPwsADz8PAC4/LoABvwIAK78
+        rgAE/AQAYP5gAIz+jABW/lYA/Pr+AAz8DAC8/LwABvwEAGL8YADs/O4AIv4iAFj8WAAU/hQAzvzQAPr+
+        +gAO/gwA4vzkAP78/ADe/OAAkPyQAJr8nACU/JYAsvyyALz8vgCW/JYAevx6AGr8agDE/MQAQPxAAED8
+        PgDo/OoAzvzOADD8MACs/KwATPxMAID8gAAU/BQAyvzKADj8OACg/KAATv5QAID8fgBy/HIACvwMAHz8
+        fABU/FQApv6mALT8tgCy/rIAtP60ALL8tAC0/LQAxvzGALT+tgCK/IoA4vziAOT85gBA/kAAwvzEAMj8
+        yAAc/BoAlv6YAEr8SgB+/IAArv6uAF78XgAe/h4ALv4uAGb8ZgBa/FoAgvyCADD+MAAa/hgA2PzYAJD8
+        kgAA/wAAAf4AAAT/AwAC/gEAAv8BAAT+AwAC/wAAAf4BAAL9AQCS/ZMAov2iAKf9pwAD/gEAAf0BAFP9
+        UwCU/ZUAo/2jAJ/9nwBw/XAADv0OAKL9owCa/ZoAYP1gAAz+DQCM/YwA//3/AGX9ZQAc/RwAwv3DAOj9
+        6QBS/lMAAf4CAAD9AAA3/jcA2/3bANf92AACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAt0C
+        4D/eP98C3dwDAtzf3gLcAwQEAgLd3QICAgPgBNzcAwTf3ALdAgICAgICAgICA9wC3NwD3Nzd3N0C3ATc
+        AwPc3Nzc4APcAt0C3AQD3Nzc3NzcBAPcAwID3AMDAgMCA98DMGVcZU0D3wMDBgM1XGIiSOZuAwQDAwMD
+        BgNXCXwiLeXUA98DA9wC3QICAwLcA+EDhPX19dUD4QMG/AzI9fX19fUaWwMEAwMG/Ct79fX19fUpagPf
+        A93c3N0EBAQEBlEGrSopKvIGUd/jMK/1LvX19Soq9YYD6OH8DCcaKPX19SgaKNQD3wL8AwMDAwPcAwMD
+        L/Uo9VoDA+EDzvUo9adVXCoqGv8I/AYD+PUo9UVV8fUo9dED3wMGA/O/fsHCwsCnxRonGrDGeAPvoUka
+        yRgDA7j1LhpuAwNXKir1YgMDA8waJyn3AwbhA50u9fUBAfX19RoaGvX1tgMvGij1uPwI4bn1LhpcAwMU
+        9S4ab+MY6Wj1KPVq/FHhA52vJyj1AfX19RoaJ/X1sPyS9SkaPAM/A7EnKhpYAwP0Gi4aswMIA3QaKBpc
+        AwgGA6ChGiejCRVFpxoqGotFPAM8Gi71qwM/AxIpJ/VD4wML9Sj1rQNRA60aKPXx/Aj8BgOZ9SqamwMD
+        JPUo9YYDAwP09S71WgPhA517GvVIPwNM9Z8aIQM/A4D1N/VYAwgDA98DkPX1SCw/bhooGpIGCAOT9S71
+        dAPh3IIpGvVh7wOL9ScqjANRAwwaKPVMAwgCA98DTvkn9V4DhBoo9Tjcd9z09S71hgPh3IIpGvX+GAOL
+        9ScqjAM/3Az1KvVMAwgDAwMGA3T1KhpXJPUo9TgDCAN49S71eQPhA3p7GvV8P/x+9SoafwNRA4D1KPWB
+        AwgCAwMD4QNt9Rr4bhoo9TjcUQNbGin1OgM/A3AuJ/Vx4wPtGij1bgNR/G4aKBpG/AgCAwMD3wZUYRr1
+        Yi4n9TjcUdxk9SkaZeNRA2YaKhoLAwNcGjJpagMI4ysaKBpCAwgCAwMDA+EDVfUo9Roo9TjcUQNXKCr1
+        WAMIA1r1LvVb/Pzq9S71XAMsA171KPVVA1EC3N3cA90EA0b1KBoo9Tjc4d0/SBpJSksDA0waKCdNAwM1
+        TycaUFEDUlMnJ0pUA/sC3dzdAwPd6Rj+GjYq9TgDBOEDOvUu9SM8PfUo9R0G3T8D7fUu9R08Q/Uz9UUD
+        4QMC3N3c3AMDBgMmJygpKivc4d3pLC31LvX19S71Jy8D3wbpMDH1LvX19TP1HjXj4wMCAgIC3d0DA+ED
+        9PX19fYD4QPjA/f49fX19fX5+gPfAwP7/P3+9fX19fX/JAPfA90CAgIC3NwCA93jCOXm5wwD6AMD6QPf
+        6uvs7e4SAwYDAgMD4wPvFBXw8fLzA+MDAwICAgICAgICAwMDAwMDAwPcA9wDA+MDAwMDAwMDBgMDA9wD
+        A98DAwMDAwMD5APcAwICAgICAgIC3QICAt7e3t8CA93dAt3d3t7e3t7gAgLdA93dA93g4d7h3t7iAgLd
+        3AICAgICAgIC3N0DA90D3dzcAtzc3dwC3d3d3d0DAwPcAtzcAtwDAgMC3d0DA93c3QICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAoAAAAIAAAAEAAAAABAAgAAAAAAIAEAAAAAAAAAAAAAAABAAAAAAAAAAAAAP//
+        /wAB/wAAAf4AAAD+AAAA/wAAAv8BAAP/AgAC/gEAA/4DABj+GAAN/gwACv4KABf+FwAH/gcAD/4PABb+
+        FQAB/gEAA/4CAAP9AwCz/bMA8/3zAJb9lwAF/gUAAv0CAAj+CACL/YsA3/3fAO/98ADa/doAe/18AAL+
+        AgAa/hoAqP2oAOX95QDt/e4Azf3MAFf9WAAA/QAAA/0CAHP9cwD//f8Apv2mAAj+BwCV/ZUA9P32AHb9
+        dwAE/gMACP0IAMr9ywD3/fgARf5FAAb9BgAt/S4A9f31APj9+QD9/P0Ao/6jACb+JgD6/fsA+/37AIz9
+        jQAa/hsA6v3qABj9FwBa/loA9/33AFv9WwAg/SAA0P3RAP39/QC//cAAAf0BAAT+BADI/ckA9P31AKP9
+        owBn/WcA/v3+ACT+JAA8/T0A/fz+AFH+UACi/aIA/P38ANb91wB0/XUA/vz+AO787wAd/h0Af/1/ALf9
+        uACh/qEAkP2QABD9EQAh/iEA9Pz1AHX9dQDG/cYAuf25AFD9UAD/+/8A//z/AED+QAA3/TcAIv4iAKX9
+        pgCh/aEAAf8BANj92ACH/YcA1/3YAKz9rQBI/kgAVP1UAAn+CQDS/dIAbf1uALT9tQCe/p4ApP6kANX9
+        1gAG/gYAGf4YAPD98QCR/ZEA2v3bAKT9pQBJ/UkAXP5cAIn9iQDM/c0AIP4hALz9vQCs/awAH/0fAAT+
+        BQCg/aAA2f3aAO/88ACD/YQArv2uAEj9SAD//f4AUf5RAAL9AQDX/dkA+P34APv9/AD5/fkAL/0vAIH9
+        gQDn/ecAEf4QACT9JAD2/PcA//z+AHD9cADE/cQAu/27AFT9VQD+/P8AO/47AP79/wD9/f4AMf0wAFj+
+        WAD5/foALP4sAEb+RwBG/UYAnv2fAN393gDq/esAFv0WAB/+HwAn/icAJf0lALr9uwD6/foAqv2rAAn+
+        CAD2/fcArP6tAEL9QgDA/cAA3P3dAA7+DgBO/U4Agv6CAEf9RwDe/d4Arf2tAAf+BgB6/XsAWf5aAAX+
+        BADy/fIALv4uAG7+bwCc/pwAY/1jAAL/AgBd/l0Azv3PALX9tQBQ/lAAd/53AMP9wwDP/c8ApP2kADL9
+        MgAC/gAABf8EAAT/AwC3uLgAube4AAK6uwC5A7wAA7u8AAMCuQC3A7cAugO8ALu8uwC7AwMAuLu4AAIC
+        AgACAgIAAgICAAICAgACAgIAAgICAAICAgACAgIAAgICAAICAgACAgIAAgICAAICAgACAgIAAgICAAIC
+        AgACAgIAAgICAAICAgACAgIAAgICAAICAgACAgIAAgICAAICAgACAgIAAgICAAICAgACAgIAAgICAAIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgMCEtUSAgICAtYGBRIHAgICBQMvAgUSEgUCAgQEBAIEBQQFBAUEBQMS
+        BQQDBQQSBAQDAgUF1AUFEgQDAgIHEhIvH8fIycovHwTLY8zNzgQHEQNJz9DR0tMEBgQEBAQFBAQEhSkh
+        BMEmwikpZikpwwTEE4YpKWYpxcYRxAQEr7CxOk+ys7Q6tVm2VLe4uVS6uwS8KTy9vr8pwAQZBJGDRlSj
+        RqSkOymlpimnqASpTqOqBKs4rBEEWk6trgQEkZIpSzKTlEY3lZaXTpiZH5qbnJ0Enk6fBB+gZqGiBDAE
+        gimDhESFToaHiIkpinMECotXjAR5KY0EBI5lj5AECRFzdCl1BHZmdwQEeCl5egR7fGZ9Jn4pfwQEgGZX
+        gQQEEgRoOzJpak5rbAU5Zm0ZBEAcV24mbylwBARxZk5yBAQECQRaKVsUKVwEBF1OIl4RX2BOYQRiTmME
+        EWRlZmcEBAMEH0lKKUspTAQETU4yTwRQUU5SBFNUVQQEVldYWQQEAgQIBDU2Nzg5BQQ6Ozw9PiE8P0AE
+        QSlCQ0RFRkdIDgIDBAQnBCgpKSoEKwQsKSktKSkuBC8wMSkpMikpMwQ0BAIFAwQSExQVFgQXGBkaGxwd
+        HhIfHwQgISIjJCUmCAQCAgMFBAQECQoLBQQEBAQMDQ4EBAQEAwQEDxAEBBEEBAICAgIFBQIFBQUDBQIC
+        BgUFBQcCBQIFAggFBQUHBQICAgICAgIDBAMCAwUDBAIFAwMDBAMDBAIEAgMDAwUDAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAA////AAH/
+        AAAB/gAAAP8AAAL+AQAF/gQABP4DAAL/AQAB/gEAE/4TAFv9WwAC/gIAAP4AAEj+SABr/WsADf4NAAT+
+        BABi/mIAV/5XALT9tQD//P8AWv1aAO797wDO/c4Aw/3DAKD9oADa/doA5P3lAIT9hQAI/gcAYf1iAPv9
+        /ADX/dcAwv3CAI7+jgAI/ggAKv0qAO/98AAz/jMAWP1YAOf96AAn/icAyf3KAN/93wDU/dQAff59AAf9
+        BgD3/PgAVP5UACz9LABP/U8A8PzxALr9uwDl/eYApf2lAPf99wBj/WQAff19APr8+wBD/UMA8P3xACT+
+        JABJ/UkAXf1dAIb+hgCw/bAA//3/AFn+WQCP/ZAAz/3QAG79bgDz/fQAC/4LANn92gCM/YwAqP2oAMD9
+        wQAg/h8ApP2lABX+FQCu/a8A0f3RAFH+UQA6/joAyf3JAMD9wAAo/igAAf8BAAP/AgAD/gIAAf8AAAH/
+        AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/
+        AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/
+        AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/
+        AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/
+        AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/
+        AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/
+        AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/
+        AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/
+        AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/wAAAf8AAAH/AAAB/gAAAf8AAAP+AgAF/wQAA/4CAAH/
+        AAAB/wAAAf8AAAH/AAAE/wMAAv8BAAD/AAAD/gIAA/8CAAH/AAAB/wAAAf8AAAD/AAAB/gAABP4DAAH/
+        AAAA/wAAA/4CAAP+AgAA/wAAAf8AAAH/AAAA/gAAAP4AAAD+AAAB/wAAAP4AAAD/AAAA/gAAAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMEA1oEA1oFWgRaBVoFBAJZ
+        BgQEWQQEBAQDBAQEBAIEDQROTw1QUVJTDVRVVldYDUBBQkNERUZHSElKS0xNDQ01Njc4OSs6DTs8PT4/
+        Jg0JKisoLA0tLi8wMRcyMzQNHg0fICEMIiMkFSUmJygpDQ0HDRQVDRYXGBkNGhscHQ0ECQQKCwwNDg8Q
+        AxESEw0FAwQDBAQECAQEBAIEBAQCBAIDBAUGAwMHBgUCAwYHAwMCAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAoAAAAMAAAAGAAAAABACAAAAAAAIAlAAAAAAAAAAAAAAAAAAAAAAAAAf8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/gD/Af8A/wL/Af8F/wT/BP8D/wX+BP8C/gH/Af8A/wH+AP8A/wD/AP4A/wH/AP8A/wD/Av4B/wT/
+        A/8B/wD/AP8A/wD+AP8D/gL/A/4C/wH/AP8B/wD/Af4A/wH+AP8B/wD/Af8A/wH/AP8A/gD/Av8B/wP+
+        Av8A/wD/AP8A/wD+AP8D/gL/Av4B/wD/AP8B/wD/Af4A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wD+AP8A/wD/Af8A/wD/AP8A/wD/AP4A/wD/AP8A/wD/Af4A/wD/AP8B/gD/Af8A/wD/
+        AP8D/gL/AP8A/wD+AP8A/gD/AP8A/wD/AP8A/wD/AP8A/wL/Af8A/gD/AP8A/wH/AP8B/gD/Af8A/wD/
+        AP8D/wL/AP4A/wD/AP8A/wD/AP8A/wD/AP8A/wD/AP8A/wP/Av8A/gD/AP8A/wD+AP8B/wD/AP4A/wD/
+        AP8A/gD/AP4A/wH/AP8A/gD/Af8A/wD+AP8C/gH/AP4A/yD+If+D/oP/gP6A/4P9g/8x/jH/AP4A/wL+
+        Af8A/gD/AP4A/wL+Av8A/gD/Gv4Z/4H9gf/D/cT/2f3Z/9D90f+h/aH/Qf1B/wD+AP8D/gL/AP4A/wD+
+        AP8A/gD/AP4A/wL+Av8A/gD/K/4r/5H9kv/M/c3/2f3Z/8r9y/+T/ZP/Lv4u/wD+AP8C/gH/AP4A/wD+
+        AP8A/wD/Af8A/wH+AP8B/wD/Af8A/wD+AP8B/wD/AP8A/wD+AP8E/gP/AP4A/0T9RP///f////3////9
+        //9m/Wb/AP4A/wT+A/8A/gD/Av4C/wD9AP88/Tz/4v3i///9/////P////3////9/////f///v3+/3b9
+        d/8A/gD/A/4C/wD+AP8A/gD/Av0C/wD9AP9b/Vv/8v3y///9/////f////3////9/////f//9f31/1X+
+        Vf8A/gD/Av4B/wD+AP8B/gD/AP8A/wD/AP8B/gD/A/4C/wP/Av8D/gL/A/4C/wL+Av8G/gX/Av4C/0D9
+        QP/5/fr/8/3z//r9+v9f/V//Av4C/wb+Bf8C/gH/Af4B/x/+H//p/Or///z///X99////f////3////9
+        ///5/fr/+f37///9//9W/Vf/AP4A/wP+Af8D/gP/AP0A/z39PP/8/fz//vz+//f99////f////3////9
+        ///3/ff//f39//n9+f8u/i7/AP4A/wL+Af8B/wD/AP0A/wD+AP8A/gD/AP4A/wD+AP8A/gD/AP8A/wD+
+        AP8A/gD/AP4A/zj9Of///f//9/34///9//9Z/Vn/AP4A/wD+AP8E/QP/AP4A/5f+mP///f//9/33///9
+        //+y/bP/Sv1K/3/9gP/6/fr/+f36//79/f/X/dj/CP4I/wD9AP8C/gL/AP4A/8P9w////f//+P35///9
+        //+X/Zf/Sf1J/5r9mv///f//9/33///9//+v/q//AP4A/wL+Af8A/gD/Av4D/wD+AP8N/g3/pv6m/7X9
+        tv+y/rP/tP60/7P9tP+0/bX/sv2z/8b9x//9/f7/+/38//79/v/O/c7/tf62/4v9iv8A/gD/D/0P/+L9
+        4//9/v3//f39/+X95v8M/gz/AP4A/wD+AP+g/aH///3///b99//+/f7/Qf5B/wD+AP8A/gD/Kv4q//n9
+        +v/6/fr//v3//8P9xP8A/gD/AP4A/wD+AP/I/cj//v3+//z9/P/z/fT/HP0b/wD+AP8C/gL/BP4D/wD+
+        AP8U/RT/9f32///9/////f////7////+/////f////3////9///9/f3//f3+//39/f///f////3//8r9
+        yv8A/gD/Of05//39/f/3/fj///3//6D9oP8A/QD/Cf4J/wP+A/9P/lD///3///X99v/+/f7/gP1//wD+
+        AP8A/gD/ZP5k///9///1/fb///z+/3P9c/8B/gH/C/0M/wH9Af99/X3///3///j9+P///f//VP1V/wD9
+        AP8G/gb/BP4D/wD+AP8U/hT/6f3q//z9/P/4/fn///3////+/////f////3////9///9/f3//f39//z9
+        /f///f////3//879zv8A/QD/Yf5h///9///0/fX//v3+/3n9ef8A/gD/Bf4F/wD+AP8w/TD//Pz8//n8
+        +v/+/P7/rP2t/wD+AP8A/gD/jP2N//79/v/1/ff//vz+/039TP8A/gD/B/4H/wD+AP9X/Vf//vz+//f8
+        9//+/P7/gP2B/wD+AP8J/gj/Av4D/wD+AP8O/g3/4/3l//79/f/8/f3/3v3g/5H9kf+b/Zz/lf2W/7L9
+        sv/9/f7/+v37//79/v+9/b7/lv2W/3r9e/8A/gD/e/57//78/v/1/Pb///z//2r9a/8A/gD/BP4E/wD+
+        AP8c/hz/9Pz1//z8/f///P//xP3F/wH+Af8A/gD/pv2m///9///4/fj///3//0D9QP8A/gD/Bv4G/wD+
+        AP9A/T////v///f8+f/+/f//mv2a/wD9AP8I/gj/AP0A/wL+A/8A/gD/Yv1h///9///5/fr/7f3u/yP+
+        I/8A/gD/AP4A/zT9NP///f//9/34///9//9W/Vb/AP4A/wD+AP8A/gD/jf2N///9///1/fb///z//1j9
+        Wf8A/gD/A/4D/wD+AP8U/hT/8vzz//37/v///f//z/3Q/wT9BP8A/gD/uv26///9///6/vr//f39/zX+
+        Nf8A/gD/Bf4F/wD+AP86/Tv///z///j8+v///P//rf2u/wD+AP8I/gj/AP4A/wD+AP8C/gH/AP4A/6/9
+        r////f////3//9D90f8K/gv/BP0E/0P+Q//+/f7/9/z4//79/v9g/mD/Av4C/wn+Cf8A/gD/jP6M///9
+        ///1/fb///3//1f+V/8A/gD/BP4D/wD/AP8W/hX/8/30//37/v///P//3v3f/w39Df8A/gD/vf29///9
+        ///7/fv/+vz7/yz9LP8A/gD/Bv0F/wD+AP88/jz///v///n8+f///P//uv27/wD+AP8I/Qf/Af8A/wD+
+        AP8C/gH/AP4A/xf+F//p/en/+/37///9//+J/Yn/AP4A/0T9RP/+/f7/9/34///8//9e/l//AP8A/wj9
+        Bv8A/wD/jf2N///8///1/fb///3//1b9Vv8A/gD/BP4D/wD/AP8W/hX/8/z0//38/v///P//2/3c/wz+
+        C/8A/gD/vv2+///9///7/fz/+v36/yz9LP8A/gD/Bf4E/wD/AP88/Tz///z///n8+v///P//uf26/wD+
+        AP8H/Qj/AP4A/wD+AP8A/gD/Av4C/wD+AP9Y/lj///3///n9+v/9/f3/K/0r/zP9M////P//9/34///9
+        //9f/l//AP4A/wj+B/8A/gD/i/6L///9///1/Pb///3//1z+XP8A/gD/A/4D/wD+AP8U/hP/8v3z//38
+        /v///P//zP3N/wP+BP8A/QD/tv23///9///5/fr//v3+/zn9Ov8A/gD/Bv4F/wD+AP86/Tr///z///j8
+        +f///P//qP6p/wD+AP8I/gj/Af8A/wD+AP8A/gD/AP4A/wP9A/8A/gD/pf6l///9///+/f7/wv3D/0P+
+        Q//9/f3/+f35///9//9f/l//AP8A/wf+Bv8A/gD/df11//79/v/0/PX///3//279bv8A/gD/BP4F/wD+
+        AP8f/R7/9vz2//v8/P///f//wP3A/wH+Af8A/gD/n/2g//78/v/4/fn///3//0L9Qv8A/gD/Bv4G/wD9
+        AP9C/kL///v///j8+P/+/P7/l/2Y/wD9AP8I/gj/Af8A/wD+AP8A/gD/AP4A/wL+Af8C/gL/E/4T/979
+        3//9/f3///3//8T+xf/2/ff/+/37///9//9f/l//AP8A/wf9Bv8A/wD/Vv1V///9///1/fX//v3+/4P+
+        g/8B/gH/Bv4F/wD+AP80/jT//fz9//n8+v/+/P7/pf2l/wD+AP8A/gD/f/1///78/v/0/fb//v7+/1X+
+        Vf8A/gD/B/4H/wH+Af9b/Vz//vz+//f8+P/+/P7/d/14/wD+AP8I/Qj/Af8A/wD+AP8A/gD/AP4A/wD+
+        AP8E/gP/AP4A/0v+S////f//+f35///9///9/f7/+f35///9//9f/l//AP8A/wb+Bf8A/gD/Kv4q//n9
+        +f/6/fr///3//639rv8A/gD/CP0I/wD+AP9Z/Vr///z///X89v/+/f//dv13/wD9AP8A/QD/U/5T///9
+        ///2/fb///3//4H+gf8A/gD/C/0K/wD+AP+J/Yr///z///n8+f///P//Sf1J/wD+AP8F/gb/Af8A/wD/
+        AP8B/gD/AP8A/wD+AP8B/gD/A/4C/wD+AP+X/Zj///3///f9+P/9/f7/+f35///9//9f/l//AP8A/wT+
+        A/8B/QD/BP4F/9D90f/9/f3//P78/+397f8d/h7/AP4A/wD+AP+6/br//v3+//j8+f/8/fz/M/4z/wD+
+        AP8A/gD/Gf4Z//D98f/8/fz//v3+/9L90v8G/gb/AP4A/w3+Dv/c/dz//P39//z8/P/s/e3/E/4S/wD+
+        AP8B/gL/Af8A/wH+AP8A/wD/Af4A/wD+AP8A/gD/Af4A/wH9Af8L/gv/2/3b//79/v/6/fz/+fz6///8
+        //9e/l//AP4A/wT+Av8E/QP/AP4A/279b////f//9v33///9///V/df/ev57/6v9rP///f//9/34///9
+        ///C/cL/Av4C/wH+AP8E/gT/AP4A/5/9oP///f//9v33///9///B/cL/ef15/8X9x////f//9f72///9
+        //+W/pb/AP4A/wP+A/8A/gD/Af8A/wD/AP8B/gD/AP8A/wD/AP8A/gD/AP4A/wL9Av8A/gD/P/1A//z9
+        /P/4/fn/9P31//r9+v9d/V3/AP8A/wT+A/8B/gD/Af0B/wr+Cv/L/cz///3///b99////f////3////9
+        ///2/ff///3///v9+/84/jj/AP4A/wL+Af8C/gL/AP0B/yH+If/r/ez///3///X99v///f////3////9
+        ///2/vf///3//+f96P8a/hv/Af4B/wH+Af8A/gD/Af8A/wH/AP8B/wD/Af8A/wH+AP8B/gD/AP4A/wD+
+        AP8E/gP/AP4A/4z9jP///f////3////9//9l/WX/AP4A/wT+A/8A/gD/Af4B/wD+AP8c/Rz/wv3D///9
+        /////f////3////9/////f//6P3p/1L+U/8A/gD/Av4B/wD+AP8A/gD/Af4C/wD9AP83/jf/2/3b///9
+        /////f////3////9/////f//1/3Y/zT9NP8A/gD/Av4B/wD+AP8B/gD/Af8A/wH/AP8B/wD/Af8A/wD/
+        AP8A/wD/Af8A/wD+AP8B/gD/Af4B/wj+CP+S/ZP/ov2i/6f9p/88/jz/AP4A/wP+Af8A/gD/AP4A/wH9
+        Af8A/gD/Av4B/1P9U/+U/ZX/o/2j/5/9n/9w/XD/HP4c/wD+AP8C/gL/AP4A/wH/AP8A/gD/AP4A/wH+
+        Af8A/gD/Dv0O/2T+ZP+c/pz/ov2j/5r9mv9g/WD/DP4N/wD+AP8B/gH/AP4A/wD+AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wD+AP8A/gD/AP4A/wD+AP8A/gD/AP4A/wD+AP8A/gD/AP8A/wD+
+        AP8A/wD/AP4A/wD+AP8B/gH/AP4A/wD+AP8A/gD/AP4A/wD+AP8A/gD/AP4A/wL+Av8A/gD/AP4A/wD+
+        AP8A/wD/AP4A/wD+AP8C/gH/AP4A/wD+AP8A/gD/AP4A/wD+AP8A/gD/AP4A/wL9Af8A/gD/AP8A/wD+
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH+AP8B/wD/Af8A/wH/AP8E/wP/BP8D/wT/
+        A/8C/gH/Af8A/wD+AP8B/gD/Af4A/wH/AP8B/gD/Af4A/wT/A/8E/wP/BP8D/wT/A/8E/wP/Av8B/wH/
+        AP8B/wD/Af4A/wD+AP8B/gD/Af4A/wD+AP8B/gD/Av8B/wT+A/8E/wP/BP4D/wT/A/8E/wP/Av8A/wH/
+        AP8B/wD/Af4A/wD/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wD/AP8B/gD/AP4A/wD+
+        AP8B/gD/AP4A/wH+AP8A/wD/AP8A/wH/AP8A/wD/AP8A/wH+AP8A/wD/Af8A/wH+AP8B/gD/Af4A/wH+
+        AP8B/gD/AP4A/wD+AP8A/gD/AP8A/wH/AP8A/wD/AP8A/wH/AP8A/wD/AP4A/wH/AP8A/gD/Af8A/wH+
+        AP8B/gD/AP4A/wD+AP8B/gD/AP8A/wH+AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAA
+        AABAAAAAAQAgAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAAH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH+
+        AP8B/wD/A/4C/wX/BP8D/gL/Af8A/wH/AP8B/wD/Af8A/wT/A/8C/wH/AP8A/wP+Av8D/wL/Af8A/wH/
+        AP8B/wD/AP8A/wH+AP8E/gP/Af8A/wD/AP8D/gL/A/4C/wD/AP8B/wD/Af8A/wD+AP8A/gD/AP4A/wH/
+        AP8A/gD/AP8A/wD+AP8A/wD/AP4A/wD/AP8A/gD/AP8A/wH+AP8D/gL/AP8A/wD+AP8B/gD/AP8A/wD+
+        AP8D/gL/AP4A/wD+AP8B/gD/Af8A/wD/AP8A/wD/Av4A/wD/AP8A/wD/A/4C/wD+AP8B/gD/Af8A/wH/
+        AP8D/wL/A/4C/wP+Av8E/gP/Av4C/27+b/+c/pz/Y/1j/wL/Av8E/gP/Av4C/wD+AP9d/l3/uf25/879
+        z/+1/bX/UP5Q/wD+AP8D/wL/Af4B/wH+AP8E/gT/d/53/8P9w//P/c//pP2k/zL9Mv8A/gD/Av8B/wD+
+        AP8A/gD/AP4A/wD+AP8A/wD/AP4A/wD+AP8A/gD/vP29///9//+o/aj/AP4A/wf+Bv8A/QD/ev17///9
+        /////f////z////9/////f//Wf5a/wD+AP8F/gT/A/0D/6z9rP///f////3////8/////f//8v3y/y7+
+        Lv8B/gH/Bf4E/wD+AP8A/gD/H/4f/yf+J/8l/SX/Jv4m/yT+JP+6/bv/+v36/6r9q/8m/ib/Cf4I/x3+
+        Hf/2/ff//P38/6z+rf9C/UL/wP3A//z9/P/c/d3/Dv4O/wD+AP9O/U7///3///v9+/+C/oL/R/1H/979
+        3v///f//rf2t/wD+AP8I/gj/AP4A/wL9Af/M/c3//f39//z9/P/+/f///f39//39/v/9/f7/+v37///9
+        //8x/TD/WP5Y///9///5/fr/LP4s/wD+AP9G/kf//v3+//79//9G/Ub/AP4A/579n//9/P3/3f3e/wH+
+        Af8A/gD/f/1///79/v/q/ev/Fv0W/wD+AP8A/gD/Av0B/9f92f///f//9P31//f9+P/4/fj/+/38//39
+        /f/4/fn/+f35/y/9L/+B/YH//v3+/+f95/8R/hD/Av4C/yT9JP/2/Pf///z+/3D9cP8A/gD/xP3E//79
+        /v+7/bv/AP4A/wL+Av9U/VX///z///78//87/jv/AP4A/wj9CP8A/gD/if2J///9///M/c3/IP4h/yD9
+        IP+8/b3//v3+/6z9rP8f/R//BP4F/6D9oP///f//2f3a/wn+Cf8A/gD/GP4Y/+/88P/+/P7/g/2E/wD+
+        AP/V/db///3//679rv8A/gD/AP4A/0j9SP//+/////3+/1H+Uf8A/gD/A/4D/wH+Af8J/gn/0v3S///9
+        //9t/W7/AP4A/7T9tf///P//nv6e/wD+AP8A/gD/pP6k///9///V/db/Bv4G/wD+AP8Z/hj/8P3x///8
+        //+R/ZH/AP0A/9r92////f//pP2l/wD+AP8A/gD/Sf1J///8///+/P7/XP5c/wD+AP8A/gD/A/4C/wD+
+        AP83/Tf/+v37//f9+P8i/iL/pf2m//79/v+h/aH/Af8B/wD/AP+j/qP///z//9j92P8I/gj/AP4A/xj9
+        F//v/fD//vz+/4f9h/8A/QD/1/3Y///9//+s/a3/AP4A/wD+AP9I/kj///z///79/v9U/VT/AP4A/wD+
+        AP8A/gD/A/4D/wD+AP9//X////3//7f9uP+z/bP///3//6H+of8A/gD/AP4A/5D9kP/+/f7/5f3l/xD9
+        Ef8B/gH/If4h//T89f/+/f7/df11/wD+AP/G/cb//v3+/7n9uf8A/gD/Af4B/1D9UP//+/////z//0D+
+        QP8A/gD/AP4A/wH+AP8A/gD/Av4C/wT+BP/I/cn///3///T99f///f//o/2j/wD+AP8A/gD/Z/1n//79
+        /v/3/fj/JP4k/wD+AP88/T3//fz+//79/v9R/lD/AP4A/6L9ov/8/fz/1v3X/wD+AP8A/gD/dP11//78
+        /v/u/O//Hf4d/wD+AP8A/gD/Af8A/wD+AP8C/gH/AP4A/y39Lv/1/fX/+P35//38/f+j/qP/AP8A/wD+
+        AP8m/ib/+v37//v9+/+M/Y3/Gv4b/6j9qP/7/fv/6v3q/xj9F/8A/gD/Wv5a///9///3/ff/W/1b/yD9
+        IP/Q/dH//f39/7/9wP8B/QH/B/4H/wH/AP8B/gD/AP4A/wD+AP8D/QL/AP4A/3P9c////f////3//6b9
+        pv8A/gD/CP4H/wD+AP+V/ZX///3////9///0/fb///3////9//92/Xf/AP4A/wT+A/8I/Qj/yv3L///9
+        /////f//9/34///9/////f//Rf5F/wD+AP8G/Qb/AP4A/wH/AP8A/wD/Af4A/wD+AP8D/gL/A/0D/7P9
+        s//z/fP/lv2X/wD+AP8F/gX/Av0C/wj+CP+L/Yv/3/3f/+/98P/a/dr/e/18/wP+Av8C/gL/Av4C/wD+
+        AP8a/hr/qP2o/+X95f/t/e7/zf3M/1f9WP8A/QD/Av4B/wD+AP8B/wD/Af8A/wH+AP8A/wD/AP4A/wD+
+        AP8A/gD/A/4D/xj+GP8N/gz/AP8A/wD+AP8A/gD/AP4A/wD+AP8K/gr/F/4X/wf+B/8A/gD/AP4A/wD+
+        AP8A/gD/Af4A/wD+AP8A/gD/D/4P/xb+Ff8A/gD/AP4A/wH+Af8A/gD/AP4A/wH/AP8B/wD/Af8A/wH/
+        AP8A/wD/AP8A/wH/AP8A/wD/AP8A/wD/AP8B/gD/AP8A/wH/AP8B/wD/Av8B/wD/AP8A/wD/AP8A/wP/
+        Av8B/wD/AP8A/wH/AP8A/wD/Af8A/wL+Af8A/wD/AP8A/wD/AP8D/wL/AP8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/gD/AP4A/wH+AP8B/wD/Af4A/wD/AP8B/gD/AP4A/wH/AP8A/wD/Af4A/wH+
+        AP8B/gD/AP4A/wH+AP8B/gD/AP4A/wH/AP8A/gD/Af8A/wH+AP8B/gD/Af4A/wD/AP8B/gD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgA
+        AAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAAB/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af4A/wD/
+        AP8B/gD/A/4C/wD/AP8B/gD/A/4C/wL+Af8D/gL/AP8A/wP+Av8C/gH/A/4C/wL+Af8A/wD/Af8A/wP/
+        Av8F/gT/AP8A/wD/AP8D/wL/AP8A/wD/AP8A/wD/AP8A/wH+AP8A/wD/AP8A/wD/AP8A/wD/Af8A/wD/
+        AP8A/gD/AP8A/yD+H/+k/aX/AP4A/xX+Ff+u/a//0f3R/1H+Uf8A/gD/Ov46/8n9yf/A/cD/KP4o/wH/
+        Af8A/gD/Xf1d/4b+hv+w/bD///3//1n+Wf+P/ZD/z/3Q/279bv/z/fT/C/4L/9n92v+M/Yz/qP2o/8D9
+        wf8A/gD/AP4A/7r9u//l/eb/pf2l//f99/9j/WT/yf3K/339ff8A/gD/+vz7/0P9Q//w/fH/JP4k/0n9
+        Sf/v/fD/AP4A/wH+Af8n/if/yf3K/1j9WP/f/d//AP4A/9T91P99/n3/B/0G//f8+P9U/lT/7v3v/yz9
+        LP9P/U//8Pzx/wD+AP8I/gf/AP4A/2H9Yv/7/fz/1/3X/wL+Av/C/cL/jv6O/wj+CP///P//Kv0q/+/9
+        8P8z/jP/WP1Y/+f96P8A/gD/AP4A/wT+A/8A/gD/tP21///8//8A/gD/Wv1a/+797//O/c7/w/3D/wD+
+        AP+g/aD/2v3a/+T95f+E/YX/AP4A/wD/AP8B/gH/AP8A/xP+E/9b/Vv/Av4C/wD+AP9I/kj/a/1r/w3+
+        Df8B/gD/BP4E/2L+Yv9X/lf/AP4A/wL+Af8B/gD/AP8A/wH+AP8A/wD/AP8A/wD/AP8C/wH/AP8A/wD/
+        AP8A/wD/Af8A/wD/AP8A/wD/AP8A/wH/AP8A/wD/Af8A/wH+AP8A/wD/Av4B/wX+BP8B/gD/Af4A/wT+
+        A/8F/gT/Av4B/wH/AP8B/gD/Bf4E/wT+A/8B/gD/Af4A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/
+        AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/Af8A/wH/AP8B/wD/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>

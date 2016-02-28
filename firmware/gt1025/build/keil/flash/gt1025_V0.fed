@@ -1,0 +1,337 @@
+;#<FEEDBACK># ARM Linker, 5.03 [Build 76]: Last Updated: Sun Apr 26 11:14:54 2015
+;VERSION 0.2
+;FILE accelerometer_task.o
+;FILE adc_task.o
+;FILE ampm_gsm_call.o
+;FILE ampm_gsm_common.o
+;FILE ampm_gsm_dial_up.o
+;FILE ampm_gsm_io.o
+Ampm_GsmGotoDataMode <= USED 0
+;FILE ampm_gsm_main_task.o
+Ampm_GsmIsWorking <= USED 0
+;FILE ampm_gsm_ring.o
+;FILE ampm_gsm_sms.o
+;FILE ampm_gsm_startup.o
+;FILE ampm_sprintf.o
+;FILE app_config_task.o
+;FILE at_command_parser.o
+;FILE buzzer.o
+;FILE camera.o
+CAM_ChangeId <= USED 0
+CAM_Start <= USED 0
+CAM_Stop <= USED 0
+CAM_crc <= USED 0
+CAM_crc16 <= USED 0
+;FILE ccsbcs.o
+;FILE comm.o
+MODEM_DTR_Set <= USED 0
+MODEM_RTS_Clr <= USED 0
+MODEM_RTS_Set <= USED 0
+;FILE core_cm3.o
+__REV16 <= USED 0
+__REVSH <= USED 0
+__get_MSP <= USED 0
+__get_PSP <= USED 0
+__set_MSP <= USED 0
+__set_PSP <= USED 0
+;FILE data_cmp.o
+;FILE database_app.o
+GetLastRecord <= USED 0
+;FILE db.o
+DB_LogFill <= USED 0
+DB_U32ToFloat <= USED 0
+;FILE diskio.o
+;FILE encoding.o
+ucs2_to_utf8 <= USED 0
+;FILE exti.o
+;FILE fcs.o
+FCS_Calculate <= USED 0
+;FILE ff.o
+f_chdir <= USED 0
+f_chmod <= USED 0
+f_getcwd <= USED 0
+f_getlabel <= USED 0
+f_gets <= USED 0
+f_printf <= USED 0
+f_putc <= USED 0
+f_puts <= USED 0
+f_rename <= USED 0
+f_setlabel <= USED 0
+f_stat <= USED 0
+f_truncate <= USED 0
+f_utime <= USED 0
+;FILE firmware_task.o
+FirmwareTask_IsBusy <= USED 0
+;FILE flash_mem.o
+MCU_FlashRead <= USED 0
+MCU_FlashWrite <= USED 0
+MCU_flash_disk_initialize <= USED 0
+MCU_flash_disk_ioctl <= USED 0
+SST25_disk_ioctl <= USED 0
+SST25_disk_read <= USED 0
+SST25_disk_status <= USED 0
+SST25_disk_write <= USED 0
+SST25_flash_disk_initialize <= USED 0
+;FILE ftp.o
+FTPGetFileName <= USED 0
+FTPGetPass <= USED 0
+FTPGetUser <= USED 0
+FTPListFile <= USED 0
+FTP_Task_IsIdle <= USED 0
+;FILE ftpc.o
+ftpc_cdup <= USED 0
+ftpc_close <= USED 0
+ftpc_control_appcall <= USED 0
+ftpc_cwd <= USED 0
+ftpc_data_appcall <= USED 0
+ftpc_init <= USED 0
+ftpc_update_svr_file_name <= USED 0
+;FILE gps.o
+GPS_PulseProcess <= USED 0
+GPS_SetPulse <= USED 0
+GpsGetInfo <= USED 0
+neamFormatLatLng <= USED 0
+nmea_calc_crc <= USED 0
+;FILE hiduser.o
+;FILE hw_config.o
+GPS_Disable <= USED 0
+;FILE i2c.o
+I2C_CheckSlaveStatus <= USED 0
+I2C_CheckStatus <= USED 0
+I2C_SendByte <= USED 0
+;FILE led.o
+;FILE list.o
+list_chop <= USED 0
+list_copy <= USED 0
+list_insert <= USED 0
+list_push <= USED 0
+;FILE low_power_mode.o
+PWR_EnterSTANDBYMode <= USED 0
+PWR_EnterSTOPMode <= USED 0
+;FILE m_time.o
+localtime_r <= USED 0
+;FILE main.o
+SysDeInit <= USED 0
+SysWakeUp <= USED 0
+;FILE memb.o
+memb_alloc <= USED 0
+memb_free <= USED 0
+memb_init <= USED 0
+memb_ref <= USED 0
+;FILE mma7660.o
+;FILE mmc_ssp.o
+MMC_disk_multiple_read <= USED 0
+MMC_disk_multiple_read_start <= USED 0
+MMC_disk_multiple_read_stop <= USED 0
+MMC_disk_multiple_write <= USED 0
+MMC_disk_multiple_write_start <= USED 0
+MMC_disk_multiple_write_stop <= USED 0
+;FILE msc_init.o
+;FILE packet_queue.o
+APQUEUE_Get <= USED 0
+APQUEUE_Put <= USED 0
+PQUEUE_Get <= USED 0
+PQUEUE_Put <= USED 0
+;FILE pdu.o
+pdu_decode <= USED 0
+;FILE petsciiconv.o
+petsciiconv_toascii <= USED 0
+petsciiconv_topetscii <= USED 0
+;FILE ppp.o
+;FILE protocol.o
+PROTO_Add <= USED 0
+PROTO_AddUnFcs <= USED 0
+PROTO_InitParser <= USED 0
+PROTO_Parse <= USED 0
+PROTO_ParseByte <= USED 0
+PROTO_ParseByteUnFcs <= USED 0
+;FILE resolv.o
+resolv_appcall <= USED 0
+resolv_getserver <= USED 0
+;FILE resolver.o
+RESOLVER_Query <= USED 0
+resolv_found <= USED 0
+;FILE ringbuf.o
+;FILE rtc.o
+RTC_SetCounterX <= USED 0
+;FILE sms_task.o
+;FILE sparser.o
+Ampm_CmdAddToList <= USED 0
+Ampm_CmdCheckList_IsEmpty <= USED 0
+Ampm_CmdResetList <= USED 0
+;FILE spi.o
+SPI_DeInit <= USED 0
+;FILE sst25.o
+;FILE startup_stm32f10x_md.o
+;FILE stm32f10x_adc.o
+ADC_AnalogWatchdogCmd <= USED 0
+ADC_AnalogWatchdogSingleChannelConfig <= USED 0
+ADC_AnalogWatchdogThresholdsConfig <= USED 0
+ADC_AutoInjectedConvCmd <= USED 0
+ADC_ClearFlag <= USED 0
+ADC_ClearITPendingBit <= USED 0
+ADC_DiscModeChannelCountConfig <= USED 0
+ADC_DiscModeCmd <= USED 0
+ADC_ExternalTrigConvCmd <= USED 0
+ADC_ExternalTrigInjectedConvCmd <= USED 0
+ADC_ExternalTrigInjectedConvConfig <= USED 0
+ADC_GetConversionValue <= USED 0
+ADC_GetDualModeConversionValue <= USED 0
+ADC_GetFlagStatus <= USED 0
+ADC_GetITStatus <= USED 0
+ADC_GetInjectedConversionValue <= USED 0
+ADC_GetSoftwareStartConvStatus <= USED 0
+ADC_GetSoftwareStartInjectedConvCmdStatus <= USED 0
+ADC_ITConfig <= USED 0
+ADC_InjectedChannelConfig <= USED 0
+ADC_InjectedDiscModeCmd <= USED 0
+ADC_InjectedSequencerLengthConfig <= USED 0
+ADC_SetInjectedOffset <= USED 0
+ADC_SoftwareStartInjectedConvCmd <= USED 0
+ADC_StructInit <= USED 0
+;FILE stm32f10x_dac.o
+DAC_Cmd <= USED 0
+DAC_DMACmd <= USED 0
+DAC_DeInit <= USED 0
+DAC_DualSoftwareTriggerCmd <= USED 0
+DAC_GetDataOutputValue <= USED 0
+DAC_Init <= USED 0
+DAC_SetChannel1Data <= USED 0
+DAC_SetChannel2Data <= USED 0
+DAC_SetDualChannelData <= USED 0
+DAC_SoftwareTriggerCmd <= USED 0
+DAC_StructInit <= USED 0
+DAC_WaveGenerationCmd <= USED 0
+;FILE stm32f10x_dma.o
+DMA_ClearITPendingBit <= USED 0
+DMA_GetCurrDataCounter <= USED 0
+DMA_GetITStatus <= USED 0
+DMA_ITConfig <= USED 0
+DMA_SetCurrDataCounter <= USED 0
+DMA_StructInit <= USED 0
+;FILE stm32f10x_flash.o
+FLASH_ClearFlag <= USED 0
+FLASH_EnableWriteProtection <= USED 0
+FLASH_EraseAllBank1Pages <= USED 0
+FLASH_EraseAllPages <= USED 0
+FLASH_EraseOptionBytes <= USED 0
+FLASH_GetFlagStatus <= USED 0
+FLASH_GetPrefetchBufferStatus <= USED 0
+FLASH_GetReadOutProtectionStatus <= USED 0
+FLASH_GetStatus <= USED 0
+FLASH_GetUserOptionByte <= USED 0
+FLASH_GetWriteProtectionOptionByte <= USED 0
+FLASH_HalfCycleAccessCmd <= USED 0
+FLASH_ITConfig <= USED 0
+FLASH_LockBank1 <= USED 0
+FLASH_PrefetchBufferCmd <= USED 0
+FLASH_ProgramHalfWord <= USED 0
+FLASH_ProgramOptionByteData <= USED 0
+FLASH_ReadOutProtection <= USED 0
+FLASH_SetLatency <= USED 0
+FLASH_UnlockBank1 <= USED 0
+FLASH_UserOptionByteConfig <= USED 0
+FLASH_WaitForLastBank1Operation <= USED 0
+;FILE stm32f10x_gpio.o
+GPIO_AFIODeInit <= USED 0
+GPIO_DeInit <= USED 0
+GPIO_ETH_MediaInterfaceConfig <= USED 0
+GPIO_EXTILineConfig <= USED 0
+GPIO_EventOutputCmd <= USED 0
+GPIO_EventOutputConfig <= USED 0
+GPIO_PinLockConfig <= USED 0
+GPIO_PinRemapConfig <= USED 0
+GPIO_ReadInputData <= USED 0
+GPIO_ReadInputDataBit <= USED 0
+GPIO_ReadOutputData <= USED 0
+GPIO_ReadOutputDataBit <= USED 0
+GPIO_ResetBits <= USED 0
+GPIO_SetBits <= USED 0
+GPIO_StructInit <= USED 0
+GPIO_Write <= USED 0
+GPIO_WriteBit <= USED 0
+;FILE stm32f10x_iwdg.o
+IWDG_GetFlagStatus <= USED 0
+;FILE stm32f10x_rcc.o
+RCC_ADCCLKConfig <= USED 0
+RCC_APB1PeriphClockCmd <= USED 0
+RCC_APB1PeriphResetCmd <= USED 0
+RCC_AdjustHSICalibrationValue <= USED 0
+RCC_BackupResetCmd <= USED 0
+RCC_ClearFlag <= USED 0
+RCC_ClearITPendingBit <= USED 0
+RCC_ClockSecuritySystemCmd <= USED 0
+RCC_DeInit <= USED 0
+RCC_GetFlagStatus <= USED 0
+RCC_GetITStatus <= USED 0
+RCC_GetSYSCLKSource <= USED 0
+RCC_HCLKConfig <= USED 0
+RCC_HSEConfig <= USED 0
+RCC_HSICmd <= USED 0
+RCC_ITConfig <= USED 0
+RCC_LSEConfig <= USED 0
+RCC_LSICmd <= USED 0
+RCC_MCOConfig <= USED 0
+RCC_PCLK1Config <= USED 0
+RCC_PCLK2Config <= USED 0
+RCC_PLLCmd <= USED 0
+RCC_PLLConfig <= USED 0
+RCC_RTCCLKCmd <= USED 0
+RCC_RTCCLKConfig <= USED 0
+RCC_SYSCLKConfig <= USED 0
+RCC_USBCLKConfig <= USED 0
+RCC_WaitForHSEStartUp <= USED 0
+;FILE sys_tick.o
+SysTick_DeInit <= USED 0
+SysTick_Get64 <= USED 0
+SysTick_Init <= USED 0
+TimerDelayms <= USED 0
+;FILE sys_time.o
+SysTimeSetup <= USED 0
+TIME_FromGsm <= USED 0
+;FILE system_config.o
+CFG_CheckSum <= USED 0
+;FILE system_stm32f10x.o
+SystemCoreClockUpdate <= USED 0
+;FILE tcp_ip_task.o
+;FILE tcpip.o
+tcp_attach <= USED 0
+tcp_listen <= USED 0
+tcp_unlisten <= USED 0
+;FILE tick.o
+TICK_DeInit <= USED 0
+;FILE timer.o
+timer_reset <= USED 0
+;FILE tracker.o
+PrintTrackerInfo <= USED 0
+TRACKER_Pause <= USED 0
+TRACKER_Resume <= USED 0
+TrackerCrc <= USED 0
+;FILE tracking_server.o
+;FILE uart1.o
+USART1_DeInit <= USED 0
+USART1_GetChar <= USED 0
+;FILE uart2.o
+USART2_DeInit <= USED 0
+USART2_GetChar <= USED 0
+USART2_PutChar <= USED 0
+;FILE uart3.o
+USART3_DeInit <= USED 0
+USART3_GetChar <= USED 0
+;FILE uip.o
+uip_chksum <= USED 0
+uip_htonl <= USED 0
+uip_listen <= USED 0
+uip_setipid <= USED 0
+uip_unlisten <= USED 0
+;FILE uip_ppp.o
+;FILE usb_config_task.o
+;FILE usbcore.o
+;FILE usbhw.o
+USB_GetFrame <= USED 0
+USB_Resume <= USED 0
+;FILE usbuser.o
+USB_Resume_Event <= USED 0
+;FILE xtea.o
+XTEA_Decrypt <= USED 0
+XTEA_Encrypt <= USED 0

@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\ampm_gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\ampm_gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common -I..\..\ampm_lib\usb -I..\..\ampm_lib\ftp -I..\..\ampm_lib\camera
+-I C:\Keil\ARM\RV31\INC
+-I C:\Keil\ARM\CMSIS\Include
+-I C:\Keil\ARM\Inc\ST\STM32F10x
+-DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o .\flash\stm32f10x_iwdg.o --omf_browse .\flash\stm32f10x_iwdg.crf --depend .\flash\stm32f10x_iwdg.d --feedback ".\flash\gt1025_V0.fed" "..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c"

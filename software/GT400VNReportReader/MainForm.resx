@@ -1,0 +1,1942 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="summaryReportGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="noCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="noCol.HeaderText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="noCol.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="plateCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="plateCol.HeaderText" xml:space="preserve">
+    <value>Plate No</value>
+  </data>
+  <metadata name="driverCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="driverCol.HeaderText" xml:space="preserve">
+    <value>Driver Name</value>
+  </data>
+  <metadata name="licenseCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="licenseCol.HeaderText" xml:space="preserve">
+    <value>License No</value>
+  </data>
+  <metadata name="startTimeCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="startTimeCol.HeaderText" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+  <data name="startTimeCol.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <metadata name="endTimeCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="endTimeCol.HeaderText" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+  <data name="endTimeCol.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <metadata name="exSpeedCountCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="exSpeedCountCol.HeaderText" xml:space="preserve">
+    <value>Exceed Speed Count</value>
+  </data>
+  <data name="exSpeedCountCol.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="doorOpenCountCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="doorOpenCountCol.HeaderText" xml:space="preserve">
+    <value>Door Open Count</value>
+  </data>
+  <data name="doorOpenCountCol.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="doorCloseCountCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="doorCloseCountCol.HeaderText" xml:space="preserve">
+    <value>Door Close Count</value>
+  </data>
+  <data name="doorCloseCountCol.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="engineOnCountCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="engineOnCountCol.HeaderText" xml:space="preserve">
+    <value>Engine On Count</value>
+  </data>
+  <data name="engineOnCountCol.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="engineOffCountCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="engineOffCountCol.HeaderText" xml:space="preserve">
+    <value>Engine Off Count</value>
+  </data>
+  <data name="engineOffCountCol.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="parkCountCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="parkCountCol.HeaderText" xml:space="preserve">
+    <value>Parking Count</value>
+  </data>
+  <data name="parkCountCol.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="contDriveTimeCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="contDriveTimeCol.HeaderText" xml:space="preserve">
+    <value>Continuous Driving Time</value>
+  </data>
+  <data name="contDriveTimeCol.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <metadata name="overDrivingTimeCountCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="overDrivingTimeCountCol.HeaderText" xml:space="preserve">
+    <value>Over Driving Time Count</value>
+  </data>
+  <data name="overDrivingTimeCountCol.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="totalDriveTimeCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="totalDriveTimeCol.HeaderText" xml:space="preserve">
+    <value>Total Driving Time</value>
+  </data>
+  <data name="totalDriveTimeCol.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <metadata name="overTotalDrivingTimeCountCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="overTotalDrivingTimeCountCol.HeaderText" xml:space="preserve">
+    <value>Over Total Driving Time Count</value>
+  </data>
+  <data name="overTotalDrivingTimeCountCol.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <metadata name="totalLengthCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="totalLengthCol.HeaderText" xml:space="preserve">
+    <value>Distance Travelled</value>
+  </data>
+  <data name="totalLengthCol.MinimumWidth" type="System.Int32, mscorlib">
+    <value>100</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="summaryReportGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="summaryReportGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1098, 336</value>
+  </data>
+  <data name="summaryReportGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;summaryReportGridView.Name" xml:space="preserve">
+    <value>summaryReportGridView</value>
+  </data>
+  <data name="&gt;&gt;summaryReportGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;summaryReportGridView.Parent" xml:space="preserve">
+    <value>summaryReportTabPage</value>
+  </data>
+  <data name="&gt;&gt;summaryReportGridView.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="readReportFromDeviceBtn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="readReportFromDeviceBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 15</value>
+  </data>
+  <data name="readReportFromDeviceBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 26</value>
+  </data>
+  <data name="readReportFromDeviceBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="readReportFromDeviceBtn.Text" xml:space="preserve">
+    <value>Read From Device</value>
+  </data>
+  <data name="&gt;&gt;readReportFromDeviceBtn.Name" xml:space="preserve">
+    <value>readReportFromDeviceBtn</value>
+  </data>
+  <data name="&gt;&gt;readReportFromDeviceBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;readReportFromDeviceBtn.Parent" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;readReportFromDeviceBtn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="logIntervalCmbBox.Items" xml:space="preserve">
+    <value>1s</value>
+  </data>
+  <data name="logIntervalCmbBox.Items1" xml:space="preserve">
+    <value>5s</value>
+  </data>
+  <data name="logIntervalCmbBox.Items2" xml:space="preserve">
+    <value>10s</value>
+  </data>
+  <data name="logIntervalCmbBox.Items3" xml:space="preserve">
+    <value>30s</value>
+  </data>
+  <data name="logIntervalCmbBox.Items4" xml:space="preserve">
+    <value>1 phút</value>
+  </data>
+  <data name="logIntervalCmbBox.Items5" xml:space="preserve">
+    <value>5 phút</value>
+  </data>
+  <data name="logIntervalCmbBox.Items6" xml:space="preserve">
+    <value>10 phút</value>
+  </data>
+  <data name="logIntervalCmbBox.Items7" xml:space="preserve">
+    <value>30 phút</value>
+  </data>
+  <data name="logIntervalCmbBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>437, 18</value>
+  </data>
+  <data name="logIntervalCmbBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 21</value>
+  </data>
+  <data name="logIntervalCmbBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;logIntervalCmbBox.Name" xml:space="preserve">
+    <value>logIntervalCmbBox</value>
+  </data>
+  <data name="&gt;&gt;logIntervalCmbBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logIntervalCmbBox.Parent" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;logIntervalCmbBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label18.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 22</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="label18.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>Interval</value>
+  </data>
+  <data name="&gt;&gt;label18.Name" xml:space="preserve">
+    <value>label18</value>
+  </data>
+  <data name="&gt;&gt;label18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label18.Parent" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;label18.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="clearReportBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>962, 15</value>
+  </data>
+  <data name="clearReportBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 26</value>
+  </data>
+  <data name="clearReportBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="clearReportBtn.Text" xml:space="preserve">
+    <value>Clear all Report</value>
+  </data>
+  <data name="&gt;&gt;clearReportBtn.Name" xml:space="preserve">
+    <value>clearReportBtn</value>
+  </data>
+  <data name="&gt;&gt;clearReportBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clearReportBtn.Parent" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;clearReportBtn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="readReportFromHardDiskBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 15</value>
+  </data>
+  <data name="readReportFromHardDiskBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 26</value>
+  </data>
+  <data name="readReportFromHardDiskBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="readReportFromHardDiskBtn.Text" xml:space="preserve">
+    <value>Read From Harddisk</value>
+  </data>
+  <data name="&gt;&gt;readReportFromHardDiskBtn.Name" xml:space="preserve">
+    <value>readReportFromHardDiskBtn</value>
+  </data>
+  <data name="&gt;&gt;readReportFromHardDiskBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;readReportFromHardDiskBtn.Parent" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;readReportFromHardDiskBtn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="outputReportToKMLBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>818, 15</value>
+  </data>
+  <data name="outputReportToKMLBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 26</value>
+  </data>
+  <data name="outputReportToKMLBtn.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="outputReportToKMLBtn.Text" xml:space="preserve">
+    <value>Output to KML file</value>
+  </data>
+  <data name="&gt;&gt;outputReportToKMLBtn.Name" xml:space="preserve">
+    <value>outputReportToKMLBtn</value>
+  </data>
+  <data name="&gt;&gt;outputReportToKMLBtn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;outputReportToKMLBtn.Parent" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;outputReportToKMLBtn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="reportBeginDatePicker.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyy</value>
+  </data>
+  <data name="reportBeginDatePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 19</value>
+  </data>
+  <data name="reportBeginDatePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 20</value>
+  </data>
+  <data name="reportBeginDatePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;reportBeginDatePicker.Name" xml:space="preserve">
+    <value>reportBeginDatePicker</value>
+  </data>
+  <data name="&gt;&gt;reportBeginDatePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportBeginDatePicker.Parent" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;reportBeginDatePicker.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="label12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 22</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 13</value>
+  </data>
+  <data name="label12.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="&gt;&gt;label12.Name" xml:space="preserve">
+    <value>label12</value>
+  </data>
+  <data name="&gt;&gt;label12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label12.Parent" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="label13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>206, 22</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 13</value>
+  </data>
+  <data name="label13.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="&gt;&gt;label13.Name" xml:space="preserve">
+    <value>label13</value>
+  </data>
+  <data name="&gt;&gt;label13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label13.Parent" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;label13.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="reportEndDatePicker.CustomFormat" xml:space="preserve">
+    <value>dd/MM/yyyy</value>
+  </data>
+  <data name="reportEndDatePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>232, 19</value>
+  </data>
+  <data name="reportEndDatePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 20</value>
+  </data>
+  <data name="reportEndDatePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;reportEndDatePicker.Name" xml:space="preserve">
+    <value>reportEndDatePicker</value>
+  </data>
+  <data name="&gt;&gt;reportEndDatePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportEndDatePicker.Parent" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;reportEndDatePicker.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="reportGrpBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="reportGrpBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 342</value>
+  </data>
+  <data name="reportGrpBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1104, 50</value>
+  </data>
+  <data name="reportGrpBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;reportGrpBox.Name" xml:space="preserve">
+    <value>reportGrpBox</value>
+  </data>
+  <data name="&gt;&gt;reportGrpBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportGrpBox.Parent" xml:space="preserve">
+    <value>summaryReportTabPage</value>
+  </data>
+  <data name="&gt;&gt;reportGrpBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="summaryReportTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="summaryReportTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="summaryReportTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 395</value>
+  </data>
+  <data name="summaryReportTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="summaryReportTabPage.Text" xml:space="preserve">
+    <value>Summary Report</value>
+  </data>
+  <data name="&gt;&gt;summaryReportTabPage.Name" xml:space="preserve">
+    <value>summaryReportTabPage</value>
+  </data>
+  <data name="&gt;&gt;summaryReportTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;summaryReportTabPage.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;summaryReportTabPage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="reportDriverNameCmbBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>899, 18</value>
+  </data>
+  <data name="reportDriverNameCmbBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 21</value>
+  </data>
+  <data name="reportDriverNameCmbBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;reportDriverNameCmbBox.Name" xml:space="preserve">
+    <value>reportDriverNameCmbBox</value>
+  </data>
+  <data name="&gt;&gt;reportDriverNameCmbBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reportDriverNameCmbBox.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;reportDriverNameCmbBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>810, 21</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Driver Name</value>
+  </data>
+  <data name="&gt;&gt;label5.Name" xml:space="preserve">
+    <value>label5</value>
+  </data>
+  <data name="&gt;&gt;label5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 342</value>
+  </data>
+  <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1104, 50</value>
+  </data>
+  <data name="groupBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Name" xml:space="preserve">
+    <value>groupBox3</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.Parent" xml:space="preserve">
+    <value>detailReportTabPage</value>
+  </data>
+  <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="detailReportGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn12.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <metadata name="gridDetailTime.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="gridDetailTime.HeaderText" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <metadata name="gridDetailLng.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="gridDetailLng.HeaderText" xml:space="preserve">
+    <value>Longtitude</value>
+  </data>
+  <metadata name="gridDetailLat.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="gridDetailLat.HeaderText" xml:space="preserve">
+    <value>Latitude</value>
+  </data>
+  <metadata name="gridDetailSpeed.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="gridDetailSpeed.HeaderText" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <metadata name="gridDetailDoor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="gridDetailDoor.HeaderText" xml:space="preserve">
+    <value>Door State</value>
+  </data>
+  <metadata name="gridDetailMileaage.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="gridDetailMileaage.HeaderText" xml:space="preserve">
+    <value>Distance Travelled</value>
+  </data>
+  <metadata name="googleLinkCol.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="googleLinkCol.HeaderText" xml:space="preserve">
+    <value>Google Link</value>
+  </data>
+  <data name="detailReportGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="detailReportGridView.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="detailReportGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1095, 336</value>
+  </data>
+  <data name="detailReportGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;detailReportGridView.Name" xml:space="preserve">
+    <value>detailReportGridView</value>
+  </data>
+  <data name="&gt;&gt;detailReportGridView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;detailReportGridView.Parent" xml:space="preserve">
+    <value>detailReportTabPage</value>
+  </data>
+  <data name="&gt;&gt;detailReportGridView.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="detailReportTabPage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="detailReportTabPage.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="detailReportTabPage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1110, 395</value>
+  </data>
+  <data name="detailReportTabPage.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="detailReportTabPage.Text" xml:space="preserve">
+    <value>Individual Report</value>
+  </data>
+  <data name="&gt;&gt;detailReportTabPage.Name" xml:space="preserve">
+    <value>detailReportTabPage</value>
+  </data>
+  <data name="&gt;&gt;detailReportTabPage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;detailReportTabPage.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;detailReportTabPage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tabMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 27</value>
+  </data>
+  <data name="tabMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1118, 421</value>
+  </data>
+  <data name="tabMain.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Name" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>21, 12</value>
+  </metadata>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>E&amp;xit</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;File</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;English</value>
+  </data>
+  <data name="vietnameseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>135, 22</value>
+  </data>
+  <data name="vietnameseToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Vietnamese</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Language</value>
+  </data>
+  <data name="registerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="registerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Register</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;About</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Help</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1127, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="saveFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>128, 11</value>
+  </metadata>
+  <data name="saveFileDialog1.Title" xml:space="preserve">
+    <value>AMBO Parameter Setup - Save File</value>
+  </data>
+  <metadata name="openFileDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>252, 13</value>
+  </metadata>
+  <data name="openFileDialog1.Title" xml:space="preserve">
+    <value>AMBO Parameter Setup - Open File</value>
+  </data>
+  <metadata name="selectFolderDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>388, 13</value>
+  </metadata>
+  <data name="selectFolderDialog.Description" xml:space="preserve">
+    <value>AMBO Parameter Setup - Select Log Folder</value>
+  </data>
+  <data name="imeiLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="imeiLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="imeiLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="imeiLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="imeiLbl.Text" xml:space="preserve">
+    <value>IMEI: </value>
+  </data>
+  <data name="&gt;&gt;imeiLbl.Name" xml:space="preserve">
+    <value>imeiLbl</value>
+  </data>
+  <data name="&gt;&gt;imeiLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;imeiLbl.Parent" xml:space="preserve">
+    <value>statusGrpBox</value>
+  </data>
+  <data name="&gt;&gt;imeiLbl.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="connectionStatusLbl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="connectionStatusLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="connectionStatusLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt, style=Bold</value>
+  </data>
+  <data name="connectionStatusLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1004, 9</value>
+  </data>
+  <data name="connectionStatusLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 17</value>
+  </data>
+  <data name="connectionStatusLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="connectionStatusLbl.Text" xml:space="preserve">
+    <value>Not Connected</value>
+  </data>
+  <data name="&gt;&gt;connectionStatusLbl.Name" xml:space="preserve">
+    <value>connectionStatusLbl</value>
+  </data>
+  <data name="&gt;&gt;connectionStatusLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;connectionStatusLbl.Parent" xml:space="preserve">
+    <value>statusGrpBox</value>
+  </data>
+  <data name="&gt;&gt;connectionStatusLbl.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="retrieveLogPercentLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="retrieveLogPercentLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>912, 11</value>
+  </data>
+  <data name="retrieveLogPercentLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>21, 13</value>
+  </data>
+  <data name="retrieveLogPercentLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="retrieveLogPercentLbl.Text" xml:space="preserve">
+    <value>0%</value>
+  </data>
+  <data name="retrieveLogPercentLbl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogPercentLbl.Name" xml:space="preserve">
+    <value>retrieveLogPercentLbl</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogPercentLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogPercentLbl.Parent" xml:space="preserve">
+    <value>statusGrpBox</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogPercentLbl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="retrieveLogStatusLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="retrieveLogStatusLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>706, 11</value>
+  </data>
+  <data name="retrieveLogStatusLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="retrieveLogStatusLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="retrieveLogStatusLbl.Text" xml:space="preserve">
+    <value>retrieveLogStatus</value>
+  </data>
+  <data name="retrieveLogStatusLbl.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogStatusLbl.Name" xml:space="preserve">
+    <value>retrieveLogStatusLbl</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogStatusLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogStatusLbl.Parent" xml:space="preserve">
+    <value>statusGrpBox</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogStatusLbl.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="commuTypeLbl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="commuTypeLbl.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="commuTypeLbl.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10pt, style=Bold</value>
+  </data>
+  <data name="commuTypeLbl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>942, 9</value>
+  </data>
+  <data name="commuTypeLbl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 17</value>
+  </data>
+  <data name="commuTypeLbl.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="commuTypeLbl.Text" xml:space="preserve">
+    <value>USB</value>
+  </data>
+  <data name="&gt;&gt;commuTypeLbl.Name" xml:space="preserve">
+    <value>commuTypeLbl</value>
+  </data>
+  <data name="&gt;&gt;commuTypeLbl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;commuTypeLbl.Parent" xml:space="preserve">
+    <value>statusGrpBox</value>
+  </data>
+  <data name="&gt;&gt;commuTypeLbl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="retrieveLogPrgBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>154, 8</value>
+  </data>
+  <data name="retrieveLogPrgBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>530, 18</value>
+  </data>
+  <data name="retrieveLogPrgBar.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="retrieveLogPrgBar.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogPrgBar.Name" xml:space="preserve">
+    <value>retrieveLogPrgBar</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogPrgBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogPrgBar.Parent" xml:space="preserve">
+    <value>statusGrpBox</value>
+  </data>
+  <data name="&gt;&gt;retrieveLogPrgBar.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="statusGrpBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="statusGrpBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 446</value>
+  </data>
+  <data name="statusGrpBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1127, 29</value>
+  </data>
+  <data name="statusGrpBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;statusGrpBox.Name" xml:space="preserve">
+    <value>statusGrpBox</value>
+  </data>
+  <data name="&gt;&gt;statusGrpBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusGrpBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusGrpBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnPrint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnPrint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnPrint.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnPrint.Name" xml:space="preserve">
+    <value>btnPrint</value>
+  </data>
+  <data name="&gt;&gt;btnPrint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnResetDevice.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnResetDevice.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnResetDevice.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnResetDevice.Name" xml:space="preserve">
+    <value>btnResetDevice</value>
+  </data>
+  <data name="&gt;&gt;btnResetDevice.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnResetToDefault.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnResetToDefault.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnResetToDefault.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnResetToDefault.Name" xml:space="preserve">
+    <value>btnResetToDefault</value>
+  </data>
+  <data name="&gt;&gt;btnResetToDefault.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnReadConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnReadConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnReadConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnReadConfig.Name" xml:space="preserve">
+    <value>btnReadConfig</value>
+  </data>
+  <data name="&gt;&gt;btnReadConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnWriteConfig.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="btnWriteConfig.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnWriteConfig.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnWriteConfig.Name" xml:space="preserve">
+    <value>btnWriteConfig</value>
+  </data>
+  <data name="&gt;&gt;btnWriteConfig.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="Column9.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column9.HeaderText" xml:space="preserve">
+    <value>Vượt giới hạn lái xe trong ngày (8h)</value>
+  </data>
+  <metadata name="Column8.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column8.HeaderText" xml:space="preserve">
+    <value>Vượt giới hạn lái xe liên tục (4h)</value>
+  </data>
+  <metadata name="Column7.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column7.HeaderText" xml:space="preserve">
+    <value>Thời gian lái xe trong ngày</value>
+  </data>
+  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column6.HeaderText" xml:space="preserve">
+    <value>Số lần đóng/mở cửa</value>
+  </data>
+  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column5.HeaderText" xml:space="preserve">
+    <value>Số lần quá tốc độ</value>
+  </data>
+  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column4.HeaderText" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="Column3.HeaderText" xml:space="preserve">
+    <value>Bắt đầu</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn5.HeaderText" xml:space="preserve">
+    <value>Giấy phép lái xe</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn4.HeaderText" xml:space="preserve">
+    <value>Tài xế</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn3.HeaderText" xml:space="preserve">
+    <value>VIN</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn2.HeaderText" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <metadata name="dataGridViewTextBoxColumn1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dataGridViewTextBoxColumn1.HeaderText" xml:space="preserve">
+    <value>Số thứ tự</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>46</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1127, 475</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAYAMDAAAAEACACoDgAAZgAAACAgAAABAAgAqAgAAA4PAAAQEAAAAQAIAGgFAAC2FwAAMDAAAAEA
+        IACoJQAAHh0AACAgAAABACAAqBAAAMZCAAAQEAAAAQAgAGgEAABuUwAAKAAAADAAAABgAAAAAQAIAAAA
+        AACACgAAAAAAAAAAAAAAAQAAAAAAAAAAAAD///8A/5pRAP6aUAD+mFAA/ppSAP6YTgD+lEYA/JhMAPyU
+        RgD+kkQA/JpQAP6URAD8mlIA/JxWAPzUtAD82sAA/NzCAPyyegD+lEgA/pZKAPy6iAD81LYA/Ni+APzG
+        nAD8pGIA/JhQAP6eWAD8wpQA/Na6APzAkgD8nlgA/JRIAPzQsAD8/v4A/sKWAP6SQgD+mEoA/KJgAPzm
+        1gD89PAA/rqIAP6WSAD8rnIA/PDmAPzu5AD8rHAA/LJ8APz8/AD8+voA/Pj2APy+kAD8nFIA/OrcAPz6
+        +AD+/v4A/q52APymZAD89vIA/PTuAP6iYAD+mEwA/JxUAP6+kgD8kkQA/O7iAPzcxgD85NYA/MSaAPzo
+        2AD81LgA/Na4APz8/gD+vpAA/OreAPyQPgD84tAA/K50APyWSAD8pGAA/Pj0APzs4AD8kEAA/KJcAP6c
+        VAD8lEQA/LiEAPz8+gD+mlQA/pRKAP6qbgD8nlYA/L6OAPz4+AD8yKAA/MyoAPzQrgD+toIA/JhOAPyg
+        WgD88OgA/P78AP6SRgD8vIoA/M6qAPzawgD8zKYA/LqKAPz4+gD8yKIA/JJCAP6eVgD8tH4A/MScAP6W
+        TAD8+vwA/ObUAPzYvAD8tHwA/pxWAPy8jAD+qmwA/tCwAPz69gD+oF4A/vb2APzgzAD+sHYA/LB4APzc
+        xAD+ol4A/tCuAP6OOgD8vpIA/JBCAPyiXgD85NIA/KxuAP6SSAD+sHoA/vr6APzizgD8lkoA/N7IAPzs
+        3gD++PYA/p5UAPzAlAD8qGgA/pA+AP6udAD+jDgA/pxSAPz29gD89OwA/NK0APzWvAD84MoA/MqiAPzK
+        pAD8pGQA/JZMAPz28AD8rHIA/JJGAPzo2gD8xp4A/t7KAP7gzAD85tgA/qBaAPzy6gD8kkAA/KpuAP6k
+        ZAD8vI4A/rJ4APyaTgD+rG4A/qZmAP6scgD+snwA/KpsAP+ZUQD+mVAA/ppRAP6ZUQD/mlAA/5lQAP+b
+        UwD+m1MA/plPAP6URwD9mE0A/ptRAP2URgD+k0UA/ZhMAP6bUgD9mlAA/pRFAP6ZTgD9m1IA/Z1WAP3U
+        tQD92sAA/dzDAP2yegD+lUgA/ZtRAP6XSwD9u4kA/dW2AP3YvgD9xp0A/aRiAP2ZUAD+n1kA/cKUAP3X
+        uwD917oA/cCSAP2eWAD9lUgA/pNEAP3RsAD9//8A/P//AP6SQwD+mEsA/aNgAP3n1gD99fAA/a5zAP3x
+        5gD97+QA/a1xAP2zfQD9/f0A/fv6APz59wD8/fwA/b6QAP2cUwD9+vkA/f7/AP7//wD9+/kA/f38AP6v
+        dgD+lkkA/aZkAP338gD8+vkA/fXvAP6jYAACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICArm8
+        Ar6+vgK8AgK5t7i5vgK8uAICvLy3uby3ubgFvby4uMYFvLcCuQICAgICAgICA7y5BuTk5NIFuLgCvL09
+        xAa4vMDQAgK7vLkDvL0UBwa8BgcUvru4AgK5ubkDtwMCAwXSs2hfaLQUArjYvvr/XyfrURC10Lm8uLjH
+        yt95DzXrNcxawAW4ubm8u7wCAwK5A74HcOLi4iPkvrjKKoCa4+Li4uIiXioFuLgF31x74uLi4uI208gF
+        uLcCtwIFAsa9xlT67fHw+D8HVLk916Li/eLi4jAw4mfABQUqz+7uMeLi4u/uV7LQBbnHx8cUFBQUFD0k
+        gOMx4lyVyb7AHeL3436wXzDvIi2+x8rFJ+Lv4h2A2/X944/AygM0ydkRfqeofn6PRSLuIjWdIcGqq+4i
+        O9kMJNXj9yLtKsFaMDAiJ9DD0kUi7vCuPcZUxYL04uLi4uLi4u7uIvXipcOA7vTjF8Pe3xUiNiJfwNDa
+        4zYiXgfZB2riMeLTyFRUxYKi7u/14uLj4u7u7uLiNeDd4jYin+A+0uzu7yJC38DhIvciVsNU33gi9CJf
+        4Fs0yd6aIu5kD9vMfiIwIogWnuCfIjbiROBUPfs2MOPnx8DN41fjdsA+3+3iMTcdw2/HysPa4zA6lJVL
+        luLv4meEBuAh4zbiXMNUwYIySPVK8wdM4jDu+dBUwIDiMeKPKm+5uLrAj+LjUT7fcCL3Ij/DGwp64jbi
+        eAe+BiaRSOJk2QeI4u4wifq+wIvijONMFG+8A7rSguj443qEcCIx4j/gVOTh4jbjZwcFPSYySPUs3sOI
+        4jAwLhS+E4vjjOJMFMu5uL++4Fzi7+5aTeL94j/gdwp64zbiM8S+Bnx9SPU1VAd+4jAifypUE4DiMeKB
+        38sCuLgDvt8R4yLncO7v4j/gVApeIjbjGOC+Pfv0MOJ0v9/VIjHicAdU3+3iMSJGB28CuATHuQZjZO71
+        5/cw4j/gVAdn4zYiaOA+FE3uMSIR399fIjYiZ8PLw/IiMSJt4G8CuLgDx1TDVuIw4iIw4j/gVBRaMDDi
+        QsDew1zi9OJew9/T4/TiX+DZ4CHiMeJhwFQCAre7A7jKyB3iMSIw4j/gvbi5SiLu/PtL+kwi7+5N+r/X
+        MvgiUcpS2Szu7jpTwdECuLu5uLy5wcssIjAw4j/gAr7I1uP09i0YQuIx4ycGub7A1eL34ycYReM24kbE
+        vgMCAre7urgDysDt7u/w8fLgBbrH8zXj9PX24vfj+Pn6xsrS+/zi/ePi4vTi/v890QMCAgICu7oCuL7g
+        4eLj4iPkvtjC5ebn4uLi4uLoKSoFuLjG3+nq4+Li4uPr7N8FA7gCAgICugICuLoGy8zNzs/QBbi40dK5
+        09TN1dbXw8a4uNjHytDZ2tvN3N3e38q4uAICAgICAgICurgDvwfAB8G6uLi4v8IDwwcHwMTFxse6vLi4
+        uMYGxMMHB8jJyri8uAICAgICAgICuQK4Ar29vrm8ubu3ArgCvr29vr0FvLy5uru3ArgCvb69vr0CvLu6
+        uwICAgICAgICt7gCArm6u7cDvLoDAwIDArq6t7i3A7m3u7oDuQK5uLe6t7oDubm7ugICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAoAAAAIAAAAEAAAAABAAgAAAAAAIAEAAAAAAAAAAAAAAABAAAAAAAAAAAAAP//
+        /wD/mlEA/ppQAP6ZUAD+mlEA/5lQAP+ZUQD/mlAA/5hPAP+WSwD/mE0A/5pSAP+YTgD/l0wA/5dLAP+Z
+        TwD+mVEA/plOAP6bUgD+pGEA/Z9ZAP6ZTwD+lEYA/p5XAP6jYAD9nVUA/ZRFAP6YTAD+lUgA/aBbAP6j
+        XwD9lEYA/ppSAP2YTQD94MsA/fr2AP3VuAD+k0YA/ptUAP2ZTwD9m1EA/dCvAP3y6QD9+PQA/fDmAP3K
+        pAD9mU4A/ZhMAP2jXwD93MQA/fTtAP338wD869wA/byLAP6WSQD9mVAA/ZtTAP6TQwD9x6AA/f//APz/
+        /wD928IA/pNFAP6cVgD9lUcA/dS2AP37+QD9yaIA/pVHAP6bUQD96dsA/fz7AP21fwD+lkgA/p1VAP2s
+        bwD9+vgA/Pv6APz+/gD+2cAA/ZRHAP6YTgD+qWsA/Pz8AP39/AD90bEA/ZxUAP3bwwD99fAA/aNhAP6S
+        QwD9vo8A/fv6AP29jwD9ol8A/ezfAP3+/QD85dQA/Z1WAP2aUAD96doA/dnAAP6VSQD9wpcA/f7+AP6o
+        aQD9jzwA/bJ6AP39/gD9uogA/o48AP3ZvwD97uMA/pA+AP329AD9pmUA/pxTAP2TRAD9zKkA/eLOAP6U
+        SAD90rMA/aFcAP2WSgD9p2cA/fj3AP3IoAD9kUEA/ejYAP3jzwD9l0sA/ZVIAP25hwD9/v8A/bN8AP2v
+        dgD9/PwA/qdmAP7ZvwD/lkoA/e/kAP6WSwD9omAA/c+tAPzu5AD93sYA/pRHAP21gQD9//4A/buKAP2P
+        PgD+mE8A/ezgAP3FmwD9izYA/eHMAP3YvQD+kkIA/drBAPzu4gD+nFUA/pdLAP739QD907MA/raCAP2+
+        kAD+jzwA/p1WAP2WSAD96twA/eTSAP3dxgD9o2AA/dm+AP3v5gD9nlcA/c6qAP3u4gD93sgA/baCAP6Q
+        PwD9+vkA/f39AP39+wD9rHEA/c2pAPz07gD+oVwA/pdKAP2oaQD9+fkA/cadAP6RQAD95tYA/ePQAP2x
+        eAD+k0QA/encAP39/wD9rXIA/byNAPz8+wD9q24A/Yo0AP22gQD8/v8A/Ni9APz+/QD98OgA/Yw3AP3M
+        pwD89fEA/qZlAP2oagD+qGsA/aRjAPz9+wD93cUA/aVjAP2lZAD+rXIA/eXUAPzw6AD+n1kA/bmGAP3N
+        qgD9s3sA/fHoAP3exwD+nlYA/pdMAP2RQgD95NEA/o8/AP6cVAD9vY0A/Pn2AP6rbgD+m1MA/ppTAP6Y
+        TQD+xZwA/ti7AP7BlAD9690A/biGAP3n1gD9694A/5VJAP+URgD+lkoA/5VIAP+bUgD/mlEA/5pRAAIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgIGE+8MBgUEBe8MBiHvBAUCBAXvBQQTIQYCAgUFAwcDBgX5+vsFBgIM
+        /OcFDvn9BgQCApMJAvkP7wQFAgIMEyHw8fLz9KLwA3xcgvWc9h0FBShkRPf4n7lnIQQEEecKoufo6TxY
+        6utFLjw8PDw87HknIqw8PDw87e6O7wMD1VPW19jD2drbS9xdYZLd3mHf4BvhPVXi4+Q95TfmRinGaYnH
+        t21tiTzIyTzKy8zNac7Np8/Q0SnS02nUWhIFE409TbZIVbdduLm6abu8vb6/lcDBwk/Dg4SWPG3Exaip
+        KjyqdF+raaytL648r7CiWnNpsRuyPLM3RbQ8hm61E5gTmT2am5w9nZ4dnzygoaJaozykRS08n4R5pTxp
+        pqcEIUWIiUOKPmmLZ4xmPI1jjo9zaZAXkTySN5OUPJWWlwMEdXZ3PHgjPXB5Z3ppM3t8fX5pf4CBT4KD
+        hIU8hodbAwRkAy9lPE08Zh1naGldamtsbWlub3BhcQNyO2lzdDACBgQhN0xNTk9QUVJTVFVWV1hVWVpb
+        XDxdXl9gYWIwYwMCBAQ5Ojs8PT4/QEFCPTxDPD1ERTlGRz08SDw8SUpLAgYEBwQDIiMkJSYnKCkqKywt
+        Li8RITAxMjM0NTY3ITgCAgICAxESExQVFgQFFhcYGRobAwQEBRwdHh8DICEGAwICAgIFBgIJCgsCBgYC
+        DAsKDQwCAwIGBQUODxAMBgIIAgICAgIDBAUFAgQFAwUDBQUFBgMHCAMCAgICBQQFCAUCAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC
+        AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAACgAAAAQAAAAIAAAAAEACAAAAAAAQAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAA////AP+a
+        UQD+mlEA/5lQAP6bUwD+mlAA/ptUAP+YTgD/lEYA/5pSAP+VSAD/kkQA/5lPAP6aUgD/k0UA/pdMAP6h
+        XQD9vo8A/ptSAP6WSQD+toEA/cSaAP6eWQD+lksA/cCTAP28jAD+mE4A/5lRAP6ZUAD+k0UA/eHMAPz+
+        /wD+lUkA/b2NAP349AD9690A/ebWAP6RQgD92L4A/fDmAP307QD9zqsA/o05AP6dVwD+kkIA/cGUAP39
+        /QD97uQA/ebVAP3SsgD+nVYA/f3/AP2rbgD+rnMA/byNAP307wD9kD4A/ahqAP3p2gD98ekA/pJDAP3s
+        4QD9y6YA/pxVAP36+gD9u4oA/ff0AP6rbwD+uIYA/ff1AP2ZTwD9izYA/ePQAP317gD928EA/fv6AP6Y
+        TQD9+/wA/bWAAP349QD9qGkA/baCAP2VSAD9vpAA/cynAP3fyQD9//8A/buJAP3TswD9694A/cWbAPz5
+        9wD97+UA/dGxAP3cwwD95dQA/os2AP6VSAD+jTwA/qZmAP3awQD+k0YA/qBcAP3eyAD97OAA/bmHAP6R
+        QwD9sHcA/qhqAP+bUgD/m1QA/5tTAP+XTQD/lEcA/5ZLAP+VSQBjpf0AZKX9AHKt/gDU5f0A6PD8AFmf
+        /gCGuf0Aqs39AHuz/QDo8f0Ax979AFae/gBMl/4AQpH9ANHk/QA/j/4AVJz+AI29/QD2+fwAbqv+AFOb
+        /gBTmv4ATZj+AJzF/gC72P4AlMH+AN3r/QCGuP0A1uf9AN7r/QBJlf8ARpT/AEqW/gBIlf8AUpv/AFgm
+        AAD/mlEA/5pRAP+aUQD/mlEA/5pRAP+aUQD/mlEA/5pRAP+aUQD/mlEA/5pRAP+aUQD/mlEAQNnfAFAQ
+        4gAYJgAAIAAAAAEACAAAAAAAAAQAAAAAAAAAAAAAAAEAAAABAAAAAAAA////AP+aUQD+mlAA/plQAP6a
+        UQD/mVAA/5lRAP+aUAD/mE8A/5ZLAP+YTQD/mlIA/5hOAP+XTAD/l0sA/5lPAP6ZUQD+mU4A/ptSAP6k
+        YQD9n1kA/plPAP6URgD+nlcA/qNgAP2dVQD9lEUA/phMAP6VSAD9oFsA/qNfAP2URgD+mlIA/ZhNAP3g
+        ywD9+vYA/dW4AP6TRgD+m1QA/ZlPAP2bUQD90K8A/fLpAP349AD98OYA/cqkAP2ZTgD9mEwA/aNfAP3c
+        xAD99O0A/ffzAPzr3AD9vIsA/pZJAP2ZUAD9m1MA/pNDAP3HoAD9//8A/P//AP3bwgD+k0UA/pxWAP2V
+        RwD91LYA/fv5AP3JogD+lUcA/ptRAP3p2wD9/PsA/bV/AP6WSAD+nVUA/axvAP36+AD8+/oAAgICAgIC
+        AgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIdAxMdAxMOEwQOCg4OBARu
+        bwQLcHFycwtudHQLc24OYmNkZWZnaGlqa2w7YG1iFFRVVldYWVpbXANdXl9gYUhJSktMGTs/TU5PUFFS
+        Q1MeOjs3PD0+P0BBQkNERUZHLC0uLzAYMTIzNDUjNjc4OR0OHh8gISIjJCUmJygpKisEAxAREhMUFRYX
+        GBMZGhscAgQDCAkECgsMDQ4EDwkCAwIDBAMFAwYFBwMEAwUFAwQCAgICAgICAgICAgICAgICAgICAgIC
+        AgICAgICAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAoAAAAMAAAAGAAAAABACAAAAAAAIAlAAAAAAAAAAAAAAAAAAAAAAAA/5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf/+mlH//5lQ//+aUf/+m1P//ptT//6bU///mlL//5lQ//+aUf//mlH//ppR//+ZUf/+mVD//ppR//6b
+        U///mlH//5lQ//6ZUP//mlL//5pS//+ZUP//mVD//5lR//6aUf//mVD//5lR//6aUf/+mVD//ppS//+b
+        Uv//mVD//plQ//6ZUP/+m1L//ppS//+ZUP//mVH//5pR//6aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//6aUP//mVD//ppR//+XTf//kkP//5JD//+SQ//+l0v//ppS//6ZUP/+mVD//5pR//+Z
+        UP//m1L//5dM//+TRf//l03//plQ//+ZT///lEf//pVI//+aUv//mlH//5pQ//+ZUP/+mlH//ppQ//+Z
+        UP//m1P//5ZK//6TRv//mE7//5lQ//+YTv//k0b//5ZK//6bU///mlD//plQ//+aUf//mlH//ppR//6a
+        Uf/+mlH//ppQ//+ZUf/+mlD//5pR//6aUP/+mlL//pdL//6nZ//9zqr//cyo//3Oqv/+rXL//pZK//+a
+        Uf/+mVD//ZlQ//6bU//9lkn//qNh//3MqP/85tf//e/l//3s3//82b///rN8//6VSf/+mlH//5lQ//6Z
+        UP/+mVD//ZpQ//2bUv/9lUf//aps//3TtP/96t3//e/l//3p2//907X//atu//6VR//9mlL//plQ//6a
+        Uf/+mlH//5lQ//+aUP//mVD//5pR//6aUP//mlH//ppR//6aUP/+m1P//pRG//21f//9/////f////3/
+        ///+wpb//pJD//6bU//+mVD//ZtS//2WSP/9sXj//PPr//z////9/////f////3////9/////f7+//3I
+        of/+lkj//ppS//6ZUP/+mVD//ZpS//2VR//9vY7//fr2//3////9/////f////3////9/////Pr4//26
+        if/+lEX//ppS//6ZUP//mVH//5pR//+ZUf//mlH//ppS//+aUv/+m1L//5tS//6bUv/+m1T//ZZJ//2z
+        fP/8/fv//Pn3//39+//+v5L//pRG//6bVP/+mlH//phM//2lY//89vD//f////z6+f/9/////f////3/
+        ///9/Pv//fz8//3////9vIv//pRH//6aUv/+mlP//ZZI//2xef/9/f3//f3+//36+v/9/////f////3/
+        ///9+/r//f3+//38+v/+rG///pVJ//6aUv/+mlH//ZpQ//2aUP/9mlD//ZZK//6WSv/+lkr//pZK//6W
+        Sv/+mEz//ZFB//2weP/8/////Pr6//3////9vY7//pA+//2ZTv/9m1P//pRH//3Vuf/9/////fv5//z/
+        ///94Mv//rJ5//3MqP/9/Pv//fv7//z+/v/97uT//ptT//2aT//9m1L//ZdM//zn1v/9/////fv6//3/
+        ///91bn//bF4//3Xu//9/v///Pr5//z////938j//pVH//2bUv/+mlD//ZxS//6ZTv/9n1n//dvC//3h
+        zf/+38r//uDM//3gy//94Mz//d/J//zn2P/9/v7//f39//z+/v/9693//eDK//3Qr//9mE3//qBb//3y
+        6//9/f3//P3+//307f/+n1n//pRE//2SQf/92L7//P////37+f/8/v7//bR9//6WSP/9mE3//atu//38
+        +//9/Pz//P7///3m1v/+lUj//ZRG//6XS//96Nn//f7+//z9/f/8+ff//qVl//6XTP/+m1L//pxT//2Y
+        TP/9ol7//fr5//3////9/////f////3////9/////f////3////9/f7//f3+//z9/v/9/v///f////3p
+        2v/9lEb//bF4//z9/f/9+vn//P////zYvv/9lUb//Z9X//2VR//9uoj//P7///35+P/9/v7//cyn//6V
+        R//+lUj//cGU//z////9+vj//P/+//3Hn//+lEb//Z9Z//6URv/9y6X//f////36+v/9/////buK//6U
+        Rf/+nVX//pxT//2XTP/9ol7//fbw//39/f/9+/v//f3///3////9/////P////3////9/f3//f3+//39
+        /v/9/////f////3q3f/+k0T//cCT//3////9+vj//f7+//3KpP/+k0P//ZxU//6XS//9rXL//fz9//37
+        +//9/v7//d3G//2VSP/+lUf//dGx//3+/v/9+/n//f7+//24hP/9k0b//p1U//2VR//9vIz//f7+//36
+        +f/9/v7//cyo//2TRP/9nlb//ZxS//6ZTv/9nlj//fTs//3+/v/8/f3//fHp//3TtP/917z//dS1//3g
+        y//8/v7//fz8//3+/v/95NL//dS2//3Ko//9k0P//cql//3+/v/9+fj//f////3Emv/+k0T//pxT//6X
+        TP/9pWT//fn4//37/f/8/////efX//2aUP/9lEf//dvB//z////9/Pr//P////20fP/9lEf//ZxU//2V
+        R//9s3z//f////z5+v/+/v///da5//2URv/+nlb//ZpQ//2bUv/9lEb//cGU//z////9/Pv//Pfz//2o
+        aP/+kT///ZA+//6vdP/9/////fv6//3////9vIv//o05//2YTv/9k0P//NGx//z////9+vj//f////29
+        jf/9lEb//pxT//2YTf/+ol7//ff2//38/v/9/v///eve//2cU//+lUb//ePP//3////9/Pz//P39//6v
+        df/+lUj//pxU//6VR//9sXj//f////36+//9/////d7I//6WSP/+nVb//ppR//6ZUP/+mVH//pVH//3f
+        yf/9/////P////zs3//9nFT//ZVI//20fv/9/v7//Pv5//z+/v/+v5P//ZRF//6dV//+kkT//tCw//3/
+        ///9+vj//f////29jP/+lEb//ptT//6XTf/9ol///vj3//38/v/9/////fHo//2fWf/+lEb//eTS//3/
+        ///9/P3//fv8//2sbv/9lkn//ptT//6UR//+sXr//f////77+v/8/////ePQ//2XSv/+nlX//5lQ//6a
+        UP/+mVH//pdL//6iXv/99fD//f38//z////+0K///o47//21f//9/v7//Pv6//3////9vpL//pNE//+d
+        Vf/9kUP//dGx//3////9+vf//P////28i//+lUb//ppS//+XTP/9ol///fj3//38/v/9/v///fDn//2f
+        WP/9lEb//eXS//3////9/Pz//fv8//2sb//+l0r//ZtT//+TSP/+sXr//P////76+v/9/////OPP//2W
+        Sv/9nVb//ppR//6ZUP/+mU///ZtT//2TRP/9vY3//f////37+//9/f3//qpt//2udP/9/////Pr5//3/
+        ///+v5H//pNE//6cVv/+kkT//tCw//z////9+vf//f////y+kP/+k0X//ptT//6YTf/+oV7//vf2//38
+        /v/9/v///erd//6cVP/+lEb//eHN//3////9/Pv//f7+//6xd//+lkj//ptU//6USP/9sHn//f////36
+        +//9/////dzE//2VSP/9nVb//5pR//6ZUP/+mVD//ppQ//2bU//9lUj//dvC//z////9/v7//efW//20
+        fv/9/v3//fv7//3////+v5L//pNE//+cVf/+kkX//cih//3+/v/8+vj//P////3FnP/9k0T//ptT//6X
+        TP/9pmX//fn5//37/f/9/////ebU//2ZT//9lUf//di9//3+/v/8+/r//f////20fv/+lEb//pxV//2V
+        R//9tH3//f////36+v/9/v7//dW4//6VRv/+nVb//5pR//6ZUP/+mFD//ZpQ//2aUf/9mE7//aBb//zx
+        6P/9/v3//f7///3n1//9+/n//fz8//3////+v5L//pNE//6cVP/+k0b//byL//z////9+vj//f7+//3O
+        qv/+k0T//ZxU//6XSv/9rnT//fz9//36+//9/v7//dvC//2VR//9lUf//cyn//z+/v/9+vj//P7+//27
+        i//9lEX//Z1V//2VRv/9vo///f7+//35+v/9/v7//cmj//2TQ//+nlb//5pR//6ZUP/+mVD//ppQ//2a
+        UP/+nFT//ZRF//24hP/9/////fz7//3////9/v7//Pv7//3////+v5L//pNE//6bVP/+lUr//qtu//z8
+        +//8+/v//f////3dx//+lUf//Z5X//2URv/9vo7//f////35+f/9//7//cih//2URv/9lUj//bqJ//z/
+        ///9+vn//f////3Mqf/9k0T//p9Z//6TRP/90K///f////36+//9/////reC//6UR//+nFT//5pR//+a
+        Uf//mVH//5pQ//6aUP/+mVD//ZtS//6URf/91rn//f////z6+v/8/f7//Pv7//3////+v5H//pNE//+b
+        U//+mVD//ppR//3r3//9/v7//P39//338//9pmX//ZE///6WSf/949D//f7+//37+v/8/f3//a50//2W
+        Sf/+mU///aRh//z49f/9/fz//f7+//zs4P/9m1L//ZFA//2fWf/98Of//f39//z9/f/99vL//aJd//2Y
+        Tf/9m1H//5pR//6ZUP//mlD//ppR//6ZUP//mVD//ZpR//2YTf/9nVX//fDm//3+/v/8/Pz//Pv7//3/
+        ///+vpL//ZNE//+aUv/9m1P//pRF//3Gnf/8/////fr5//7////97uP//cac//3dx//9/////Pv6//z/
+        ///95tb//phN//6aUf/+m1P//ZRH//3Yvv/9/////fv5//z////95db//cWb//3o2P/8/////fr4//3/
+        ///81bj//ZNF//2bU//+mlD//5pR//+aUf//mVH//5pQ//6ZUf/+mVD//ppQ//2bUv/+lEf//bN9//39
+        /f/9+/r//Pn3//z9/P/9vpD//pNE//6aUv/+mVH//ZpQ//2cU//86tz//P////36+f/9/v///v////3/
+        ///9+/n//P////39/P/+r3b//pZJ//6bUv/9m1L//pdL//2mZP/99/L//f////z6+f/8/////f////3/
+        ///9+vn//f////317//+o2D//phM//2bUf/+mlD//5pR//+aUf//mlH//5pR//+aUP/+mVH//5pR//6Z
+        UP/+m1P//pNE//3RsP/9/////P////3////+wpb//pJD//6bU//9mVD//ptR//6YS//9o2D//efW//3/
+        ///9/////f////3////9/////fXw//66iP/+lkj//ppS//6ZUP/+mVD//ptS//2VSP/9rnP//fHm//z/
+        ///9/////f////3////8/////e/k//2tcf/9lUj//ppS//6aUP/+mVD//5pR//+aUf//mlH//5pR//6Z
+        Uf//mlH//5pR//6ZUP/+mVH//phO//2dVv/91LX//drA//3cw//9snr//pVI//6aUv/+mVD//plQ//2b
+        Uf/+l0v//ppR//27if/91bb//drA//3Yvv/9xp3//aRi//2URv/+m1L//plQ//6ZUP/9mVD//ZpQ//2b
+        Uv/+lUj//p9Z//3ClP/917v//drA//3Xuv/9wJL//Z5Y//2VSP/9m1L//plQ//6ZUP//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//6ZUf/+mVD//ppQ//6ZT//+lEb//pRH//6URv/9mE3//plR//6Z
+        UP/+mVD//plQ//6ZT//+m1H//ppQ//2URv/+lEb//pRG//6UR//+k0X//ZhM//6bUv/9mlD//plR//+Z
+        UP/+mVD//plQ//6ZUP/+m1L//phO//6TRf/9lEb//pRG//6URv/+lEX//plO//2bUv/+mVD//5lQ//6Z
+        UP//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//6aUf//mlH//plQ//+aUf//m1P//5tT//6b
+        U//+mlH//5lQ//6aUf//mlD//5lR//+aUf/+mVD//5pR//6bU///m1P//5tT//6bU///m1P//ppS//+Z
+        UP//mVD//ppR//6ZUf//mlD//5lR//+aUf/+mVD//5pR//+bU//+m1P//5tT//6bU///m1P//5pR//+Z
+        UP//mlD//plR//+aUP//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+ZUf/+mVD//5pR//+a
+        Uf/+mlH//plR//+aUP//mVH//ppQ//+ZUP/+mVH//ppQ//6aUP//mlH//ppQ//+aUf/+mVH//plR//+Z
+        Uf/+mVD//5lR//6aUP/+mlH//5lR//+aUP/+mVH//ppQ//6aUf//mlH//ppR//6ZUP//mVH//plR//+Z
+        Uf/+mVH//ppQ//6aUf/+mlH//5pQ//6ZUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAACAA
+        AABAAAAAAQAgAAAAAACAEAAAAAAAAAAAAAAAAAAAAAAAAP+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mVD//ptS//6bU///mlL//5lQ//6aUf/+mVD//ppR//6bU///mlL//5lQ//6aUv/+m1P//plQ//6a
+        Uf//mlH//plQ//6aUf/+m1P//ppR//6ZUP/+m1L//ppS//+ZUP//mlH//5pR//6aUf/+mlH//ppQ//+Z
+        Uf/+mlD//5lQ//6aUf//lUn//5RG//6WSv/+mlH//5lQ//+aUf//mlL//5VI//6XTP/+mlH//5dM//+V
+        Sf//m1L//5lQ//6ZUP//mlH//5pR//6UR///mE///5pR//+VSf//l0v//ptT//6ZUP/+mlH//5pR//+a
+        Uf//mlL//ptS//6aUv/+mlP//phN//7FnP/+2Lv//sGU//6XS//+mlP//ppQ//2WSv/9vo///ePP//3r
+        3f/94cz//biG//6VSP/+mlH//ppR//2ZT//9mlD//cmi//3n1v/9697//drB//2scf/+lUn//ppS//6Z
+        UP/+mVD//plR//6XTP//lkv//pdL//6XTP/9kUL//eTR//3////928P//o8///6cVP/+lUf//cqk//3/
+        ///9/////f////3////9/////b2N//6USP/+m1T//ZhN//3dxv/9/////f////3////9/////Pn2//6r
+        bv/+lkv//ptT//6aUP/+mlD//qZl//6pa//9qGr//qhr//2kY//949D//P37//3dxf/9pWP//p1V//2l
+        ZP/9+/r//f79//3exv/+rXL//eXU//3+/f/88Oj//p9Z//2URf/9uYb//P////39/P/9zar//bN7//3x
+        6P/8/////d7H//6WSf/+nlb//ptR//2bUf/96dz//f7+//38/P/9/f///f39//39/v/9/f7//fz8//3/
+        ///9rXL//byN//3////8/Pv//atu//2KNP/9toH//f7+//z+///9toH//o88//zYvf/8/v3//fDo//2b
+        Uf/9jDf//cyn//3+/v/89fH//aNh//6ZTv/+mlH//ptS//3v5P/8/////fr4//36+f/9/Pv//f38//39
+        /f/9+/r//f37//2scf/9zan//f7+//z07v/+oVz//pdK//2oaf/9+fn//f/+//3Gnf/+kUD//ebW//z+
+        /v/949D//ZdL//2VSP/9u4r//f////39/v/9sXj//pNE//6dVv/9lkj//dCv//3////96tz//aZl//2i
+        X//95NL//f7+//3dxv/9o2D//ZlO//3Zvv/9/////e/m//2eV//+l0v//aNh//329P/9/v7//c6q//2U
+        Rf/97uL//f////3eyP/+lkn//pVH//22gv/9/////f7///26iP/+kD///ptS//6YT//+m1L//ezg//z/
+        ///9xZv//Ys2//3hzP/8/////di9//6SQv/+lUj//drB//3////87uL//pxV//6XS//9o2H//vf1//3/
+        ///907P//pVH//3w5v/9/////drB//2VSP/+lEj//raC//3////9/v7//b6Q//6PPP/+mVD//ppS//6V
+        R//9r3b//fz8//37+f/+p2b//dvC//3+/v/+2b///pVJ//+WSv/92cD//f////3v5P/9nVb//pZL//2i
+        YP/99vT//f7+//3Prf/+lEb//O7k//3////93sb//pZJ//6UR//9tYH//f////3//v/9u4r//Y8+//6a
+        UP/+mVD//pxT//2TRP/9zKn//f////3izv/94Mv//P////3Zv//+lEj//pVJ//3Ss//9/v7//fTt//2h
+        XP/9lkr//adn//349//9/v7//cig//2RQf/96Nj//P7+//3jz//9l0v//ZVI//25h//9/////f7///2z
+        fP/+kkP//ppQ//6ZUP/9mlD//ppQ//2ZTv/96dr//f////36+P/9/////dnA//6VSP/+lUn//cKX//3+
+        /v/9+/r//qhp//2PPP/9snr//f3+//3+/v/9uoj//o48//3Zv//9/v3//e7j//6aUP/+kD7//ceg//3+
+        /v/99vT//aZl//2YTP//mlH//5lQ//6ZUP/+mlL//pZJ//2sb//9+vj//Pv6//z+/v/+2cD//ZRH//6Y
+        Tv/+qWv//Pz8//39/P/90bH//ZxU//3bw//9/fz//fXw//2jYf/+kkP//b6P//3////9+/r//b2P//2i
+        X//97N///f79//zl1P/9mEz//Z1W//6aUP//mlH//plQ//6ZUP/9m1P//pND//3HoP/9/////P////3b
+        wv/+k0X//pxW//2VR//91Lb//P////3////9+/n//f////z////9yaL//pVH//2bU//+m1H//enb//z/
+        ///9/////fz7//3////9/////bV///6WSP/+nVX//5pR//+ZUP/+mVD//5lR//6ZUP/+mlD//ZhN//3g
+        y//9+vb//dW4//6TRv/+m1T//ZlP//2bUf/90K///fLp//349P/98Ob//cqk//2ZTv/+mVH//ppS//2Y
+        TP/9o1///dzE//307f/99/P//Ovc//28i//+lkn//ppS//2ZUP//mlH//5pR//+aUf//mlH//ppQ//6Z
+        Uf/+mU7//ptS//6kYf/9n1n//plP//6ZUP/+mlH//plP//6URv/+nlf//qNg//2dVf/9lEX//ppQ//6Z
+        UP/+mVD//ppR//6YTP/+lUj//aBb//6jX//+mlD//ZRG//6aUv//mVD//ppQ//+aUf//mlH//5pR//+a
+        Uf/+mlH//5lQ//+aUf//mE///5ZL//+YTf//mlH//5lQ//+ZUP//mlH//5pS//+YTf//lkv//5hO//+a
+        Uv//mlH//ppQ//+aUf//mVD//ppR//6aUf//l0z//5dL//+ZT///mlL//5lQ//+aUf//mlD//5pR//+a
+        Uf//mlH//5pR//+aUf/+mlD//plQ//6aUf/+mlH//5pR//6ZUP/+mlH//ppQ//6aUf/+mlD//ppR//6a
+        Uf/+mlH//5lQ//6aUP//mVH//5pQ//6aUP//mlH//5pR//+aUf//mlH//ppR//6ZUP/+mlH//5pQ//6a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf8AAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgA
+        AAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAAD/mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//6Z
+        UP/+mlH//ptS//6ZUP/+mlH//ptS//6aUv/+m1L//5lQ//6aUv//mlL//ppS//6aUv//mVD//5lQ//+b
+        Uv//m1T//5lQ//+VSP//m1P//5dN//+UR///lkv//5VI//+bUv//lUn//5VJ//+VSP//lkv//5tS//6a
+        Uv/+lUj//o08//6mZv/92sH//pNG//6gXP/93sj//ezg//25h//+kUP//bB3//3p2v/95dT//qhq//6V
+        SP/+lkn//b6Q//3Mp//938n//f////27if/907P//eve//3Fm//8+ff//ppR//3v5f/90bH//dzD//3l
+        1P/+izb//Ys2//3j0P/99e7//dvB//37+v/9wJP//ena//3Lpv/+mE3//fv8//21gP/9+PX//ahp//22
+        gv/99/T//ZVI//6TRf/9qGr//ena//28jf/98en//pJD//3s4f/9y6b//pxV//36+v/9u4r//ff0//6r
+        b//+uIb//ff1//2ZT//+nVf//pJC//3BlP/9/f3//e7k//6WS//95tX//dKy//6dVv/9/f///atu//34
+        9P/+rnP//byN//307//9kD7//plQ//6aUv/+k0X//eHM//z+///+lUn//b2N//349P/9693//ebW//6R
+        Qv/92L7//fDm//307f/9zqv//o05//+ZUP/+mlH//pdM//6hXf/9vo///ptS//6WSf/+toH//cSa//6e
+        Wf/+lkv//ptS//3Ak//9vIz//phO//+ZUf//mlH//5lQ//6aUf//mE7//5RG//+ZUP//mlL//5VI//+S
+        RP//mU///ppS//+ZUP//k0X//5RG//+aUf/+mlH//5pR//6aUf//mVD//ppR//6bU//+mlH//ppQ//6b
+        U//+m1T//ppR//+ZUP/+mlH//ptT//6bU//+mlH//5lQ//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+a
+        Uf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH//5pR//+aUf//mlH/AAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>AMBO Report Reader - GT400VN</value>
+  </data>
+  <data name="&gt;&gt;noCol.Name" xml:space="preserve">
+    <value>noCol</value>
+  </data>
+  <data name="&gt;&gt;noCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;plateCol.Name" xml:space="preserve">
+    <value>plateCol</value>
+  </data>
+  <data name="&gt;&gt;plateCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;driverCol.Name" xml:space="preserve">
+    <value>driverCol</value>
+  </data>
+  <data name="&gt;&gt;driverCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;licenseCol.Name" xml:space="preserve">
+    <value>licenseCol</value>
+  </data>
+  <data name="&gt;&gt;licenseCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;startTimeCol.Name" xml:space="preserve">
+    <value>startTimeCol</value>
+  </data>
+  <data name="&gt;&gt;startTimeCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;endTimeCol.Name" xml:space="preserve">
+    <value>endTimeCol</value>
+  </data>
+  <data name="&gt;&gt;endTimeCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exSpeedCountCol.Name" xml:space="preserve">
+    <value>exSpeedCountCol</value>
+  </data>
+  <data name="&gt;&gt;exSpeedCountCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doorOpenCountCol.Name" xml:space="preserve">
+    <value>doorOpenCountCol</value>
+  </data>
+  <data name="&gt;&gt;doorOpenCountCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;doorCloseCountCol.Name" xml:space="preserve">
+    <value>doorCloseCountCol</value>
+  </data>
+  <data name="&gt;&gt;doorCloseCountCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engineOnCountCol.Name" xml:space="preserve">
+    <value>engineOnCountCol</value>
+  </data>
+  <data name="&gt;&gt;engineOnCountCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;engineOffCountCol.Name" xml:space="preserve">
+    <value>engineOffCountCol</value>
+  </data>
+  <data name="&gt;&gt;engineOffCountCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;parkCountCol.Name" xml:space="preserve">
+    <value>parkCountCol</value>
+  </data>
+  <data name="&gt;&gt;parkCountCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;contDriveTimeCol.Name" xml:space="preserve">
+    <value>contDriveTimeCol</value>
+  </data>
+  <data name="&gt;&gt;contDriveTimeCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overDrivingTimeCountCol.Name" xml:space="preserve">
+    <value>overDrivingTimeCountCol</value>
+  </data>
+  <data name="&gt;&gt;overDrivingTimeCountCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalDriveTimeCol.Name" xml:space="preserve">
+    <value>totalDriveTimeCol</value>
+  </data>
+  <data name="&gt;&gt;totalDriveTimeCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;overTotalDrivingTimeCountCol.Name" xml:space="preserve">
+    <value>overTotalDrivingTimeCountCol</value>
+  </data>
+  <data name="&gt;&gt;overTotalDrivingTimeCountCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;totalLengthCol.Name" xml:space="preserve">
+    <value>totalLengthCol</value>
+  </data>
+  <data name="&gt;&gt;totalLengthCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn12</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridDetailTime.Name" xml:space="preserve">
+    <value>gridDetailTime</value>
+  </data>
+  <data name="&gt;&gt;gridDetailTime.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridDetailLng.Name" xml:space="preserve">
+    <value>gridDetailLng</value>
+  </data>
+  <data name="&gt;&gt;gridDetailLng.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridDetailLat.Name" xml:space="preserve">
+    <value>gridDetailLat</value>
+  </data>
+  <data name="&gt;&gt;gridDetailLat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridDetailSpeed.Name" xml:space="preserve">
+    <value>gridDetailSpeed</value>
+  </data>
+  <data name="&gt;&gt;gridDetailSpeed.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridDetailDoor.Name" xml:space="preserve">
+    <value>gridDetailDoor</value>
+  </data>
+  <data name="&gt;&gt;gridDetailDoor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gridDetailMileaage.Name" xml:space="preserve">
+    <value>gridDetailMileaage</value>
+  </data>
+  <data name="&gt;&gt;gridDetailMileaage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;googleLinkCol.Name" xml:space="preserve">
+    <value>googleLinkCol</value>
+  </data>
+  <data name="&gt;&gt;googleLinkCol.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewLinkColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;vietnameseToolStripMenuItem.Name" xml:space="preserve">
+    <value>vietnameseToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;vietnameseToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Name" xml:space="preserve">
+    <value>helpToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;helpToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;registerToolStripMenuItem.Name" xml:space="preserve">
+    <value>registerToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;registerToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Name" xml:space="preserve">
+    <value>saveFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;saveFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Name" xml:space="preserve">
+    <value>openFileDialog1</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;selectFolderDialog.Name" xml:space="preserve">
+    <value>selectFolderDialog</value>
+  </data>
+  <data name="&gt;&gt;selectFolderDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column9.Name" xml:space="preserve">
+    <value>Column9</value>
+  </data>
+  <data name="&gt;&gt;Column9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column8.Name" xml:space="preserve">
+    <value>Column8</value>
+  </data>
+  <data name="&gt;&gt;Column8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column7.Name" xml:space="preserve">
+    <value>Column7</value>
+  </data>
+  <data name="&gt;&gt;Column7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column6.Name" xml:space="preserve">
+    <value>Column6</value>
+  </data>
+  <data name="&gt;&gt;Column6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column5.Name" xml:space="preserve">
+    <value>Column5</value>
+  </data>
+  <data name="&gt;&gt;Column5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column4.Name" xml:space="preserve">
+    <value>Column4</value>
+  </data>
+  <data name="&gt;&gt;Column4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Column3.Name" xml:space="preserve">
+    <value>Column3</value>
+  </data>
+  <data name="&gt;&gt;Column3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn5</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn4</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn3</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn2</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Name" xml:space="preserve">
+    <value>dataGridViewTextBoxColumn1</value>
+  </data>
+  <data name="&gt;&gt;dataGridViewTextBoxColumn1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

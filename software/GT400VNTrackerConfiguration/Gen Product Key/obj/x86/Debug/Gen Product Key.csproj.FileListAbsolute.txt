@@ -1,0 +1,9 @@
+D:\AMPM\SVN\GT400VN\trunk\software\GT400VNTrackerConfiguration\Gen Product Key\bin\Debug\Gen Product Key.exe
+D:\AMPM\SVN\GT400VN\trunk\software\GT400VNTrackerConfiguration\Gen Product Key\bin\Debug\Gen Product Key.pdb
+D:\AMPM\SVN\GT400VN\trunk\software\GT400VNTrackerConfiguration\Gen Product Key\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\AMPM\SVN\GT400VN\trunk\software\GT400VNTrackerConfiguration\Gen Product Key\obj\x86\Debug\Gen_Product_Key.MainForm.resources
+D:\AMPM\SVN\GT400VN\trunk\software\GT400VNTrackerConfiguration\Gen Product Key\obj\x86\Debug\Gen_Product_Key.Properties.Resources.resources
+D:\AMPM\SVN\GT400VN\trunk\software\GT400VNTrackerConfiguration\Gen Product Key\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\AMPM\SVN\GT400VN\trunk\software\GT400VNTrackerConfiguration\Gen Product Key\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\AMPM\SVN\GT400VN\trunk\software\GT400VNTrackerConfiguration\Gen Product Key\obj\x86\Debug\Gen Product Key.exe
+D:\AMPM\SVN\GT400VN\trunk\software\GT400VNTrackerConfiguration\Gen Product Key\obj\x86\Debug\Gen Product Key.pdb

@@ -1,0 +1,10 @@
+.\flash\hiduser.o: ..\..\ampm_lib\usb\hiduser.c
+.\flash\hiduser.o: ..\..\ampm_lib\usb\usb.h
+.\flash\hiduser.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\hiduser.o: ..\..\ampm_lib\usb\usbhw.h
+.\flash\hiduser.o: ..\..\ampm_lib\usb\hid.h
+.\flash\hiduser.o: ..\..\ampm_lib\usb\usbcfg.h
+.\flash\hiduser.o: ..\..\ampm_lib\usb\usbcore.h
+.\flash\hiduser.o: ..\..\ampm_lib\usb\hiduser.h
+.\flash\hiduser.o: ..\..\ampm_lib\lib/ringbuf.h
+.\flash\hiduser.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
